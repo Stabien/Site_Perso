@@ -27,7 +27,7 @@
     </div>
     <main class="container-fluid">
         <div id="presentation_row" class="row">
-            <div id="presentation" class="col-8 offset-2" data-aos="fade-up" data-aos-duration="1500">
+            <div id="presentation" class="col-8 offset-2" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Présentation</h2>
                 <p>Cela fait maintenant plusieurs années
                 que je suis passionné par le développement informatique.
@@ -36,106 +36,115 @@
                 </p>
             </div>
         </div>
-        <h2 id="competences_title">Compétences<h2>
-        <div id="competences" class="container">
-            <div class="row">
-                <div class="col-lg">
-                    <h3>Développement Web</h3>
-                    <ul>
-                        <li>HTML & CSS
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>JavaScript
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>PHP & MySQL
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                    </ul>
+        <div id="animation-container" data-aos="fade-up" data-aos-duration="1000">
+            <h2 id="competences_title">Compétences<h2>
+            <div id="competences" class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h3>Développement Web</h3>
+                        <ul>
+                            <li>HTML & CSS
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>JavaScript
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>PHP & MySQL
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg">
+                        <h3>Langages de programmation</h3>
+                        <ul>
+                            <li>C
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>C++
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Python
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg">
-                    <h3>Langages de programmation</h3>
-                    <ul>
-                        <li>C
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>C++
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>Python
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg">
-                    <h3>Frameworks</h3>
-                    <ul>
-                        <li><span>jQuery</span>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>React
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>Symfony
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg">
-                    <h3>Langues</h3>
-                    <ul>
-                        <li>Français
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>Anglais
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                        <li>Espagnol
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="row">
+                    <div class="col-lg">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li><span>jQuery</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>React
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Symfony
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg">
+                        <h3>Langues</h3>
+                        <ul>
+                            <li>Français
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Anglais
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Espagnol
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50"
+                                    ></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
+    <script>
+    $(document).on("scroll", function() {
+        $(".progress-bar").css("width", function() {
+            return $(this).attr("aria-valuenow") + "%";
+        });
+    });
+    </script>
     <script>
     AOS.init();
     </script>

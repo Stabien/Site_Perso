@@ -189,9 +189,16 @@ main {
     font-size: 0.85rem;
     text-align: justify;
     margin-bottom: 1em;
-    font-family: 'Avenir-Roman';
+    font-family: 'poppins-light';
+    color: #333333;
 }
 
 #competences span {
     margin-bottom: 10em;
+}
+
+
+.progress-bar {
+    width: 0;
+    animation: 3.5s ease-in-out forwards;
 }
