@@ -200,5 +200,6 @@ main {
 
 .progress-bar {
     width: 0;
-    animation: 3.5s ease-in-out forwards;
+    transition: 3s !important;
+    
 }
