@@ -128,10 +128,29 @@
                             <li>Espagnol
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="50"
-                                    ></div>
+                                    aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="experience-container">
+            <h2>Expérience</h2>
+            <div id="experience" class="container">
+                <div class="row">
+                    <div id="experience-content" class="col-10 offset-1">
+                        <img src="images/image_stage.png">
+                        <div id="content-stage">
+                            <div id="content-stage-left">
+                                <h3>IFGPE</h3>
+                                <h4>Développeur Web Junior</h4>
+                            </div>
+                            <div id="content-stage-right">
+                                <h3>Mars 2020 - Avril 2020</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,7 +161,6 @@
     AOS.init({
         once: true
     });
-
     $(document).on("aos:in:competences", function() {
         $(".progress-bar").css("width", function() {
             return $(this).attr("aria-valuenow") + "%";
