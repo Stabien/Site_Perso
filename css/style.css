@@ -220,6 +220,7 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-top: 0.3em;
 }
 
 #content-stage-left, #content-stage-right {
@@ -233,13 +234,21 @@ main {
     margin-right: 1em;
 }
 
-#content-stage h3, #content-stage h4 {
+#content-stage h3, #content-stage h5 {
     font-family: 'Avenir-Roman';
 }
 
 #content-stage h4 {
+    font-size: 1.1em;
+    opacity: 0.7;
+    font-style: bold;
+    margin-bottom: 0.7em;
+}
+
+#content-stage h5 {
     font-size: 1em;
     opacity: 0.7;
+    margin-bottom: 0.7em;
 }
 
 #content-stage-right h3 {

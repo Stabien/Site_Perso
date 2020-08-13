@@ -146,6 +146,8 @@
                             <div id="content-stage-left">
                                 <h3>IFGPE</h3>
                                 <h4>Développeur Web Junior</h4>
+                                <h5>Type de contrat : Stage</h5>
+                                <h5>Durée : 2 mois</h5>
                             </div>
                             <div id="content-stage-right">
                                 <h3>Mars 2020 - Avril 2020</h3>
