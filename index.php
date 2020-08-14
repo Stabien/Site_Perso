@@ -26,7 +26,7 @@
     </div>
     <main class="container-fluid">
         <div id="presentation_row" class="row">
-            <div id="presentation" class="col-8 offset-2" data-aos="fade-up" data-aos-duration="1000">
+            <div id="presentation" class="col-8 offset-2" data-aos="fade-up" data-aos-duration="1500">
                 <h2>Présentation</h2>
                 <p>Cela fait maintenant plusieurs années
                 que je suis passionné par le développement informatique.
@@ -35,7 +35,7 @@
                 </p>
             </div>
         </div>
-        <div id="animation-container" data-aos="fade-up" data-aos-duration="1000" data-aos-id="competences">
+        <div id="animation-container" data-aos="fade-up" data-aos-duration="1500" data-aos-id="competences">
             <h2 id="competences_title">Compétences<h2>
             <div id="competences" class="container">
                 <div class="row">
@@ -137,10 +137,10 @@
             </div>
         </div>
         <div id="experience-container">
-            <h2>Expérience</h2>
-            <div id="experience" class="container">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Expérience</h2>
+            <div id="experience" class="container" data-aos="fade-left" data-aos-duration="2000">
                 <div class="row">
-                    <div id="experience-content" class="col-8 offset-2">
+                    <div id="experience-content" class="col-10 offset-1">
                         <img src="images/image_stage.png">
                         <div id="content-stage">
                             <div id="content-stage-left">
