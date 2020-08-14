@@ -140,17 +140,19 @@
             <h2>Expérience</h2>
             <div id="experience" class="container">
                 <div class="row">
-                    <div id="experience-content" class="col-10 offset-1">
+                    <div id="experience-content" class="col-8 offset-2">
                         <img src="images/image_stage.png">
                         <div id="content-stage">
                             <div id="content-stage-left">
                                 <h3>IFGPE</h3>
                                 <h4>Développeur Web Junior</h4>
-                                <h5>Type de contrat : Stage</h5>
-                                <h5>Durée : 2 mois</h5>
+                                <p>- Création d'un site regroupant des produits immobiliers sous WordPress</p>
+                                <p>- Conception et mise en place d'une simulation pour certains produits
+                                permettant aux clients de faire une projection financière</p>
+
                             </div>
                             <div id="content-stage-right">
-                                <h3>Mars 2020 - Avril 2020</h3>
+                                <h4>(2 mois)<h4>
                             </div>
                         </div>
                     </div>
