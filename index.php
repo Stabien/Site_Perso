@@ -35,7 +35,7 @@
                 </p>
             </div>
         </div>
-        <div id="animation-container" data-aos="fade-up" data-aos-duration="1500" data-aos-id="competences">
+        <div id="animation-container" data-aos="fade-up" data-aos-duration="1500" data-aos-id="competences" data-aos-anchor-placement="top-center">
             <h2 id="competences_title">Compétences<h2>
             <div id="competences" class="container">
                 <div class="row">
@@ -138,9 +138,9 @@
         </div>
         <div id="experience-container">
             <h2 data-aos="fade-up" data-aos-duration="1500">Expérience</h2>
-            <div id="experience" class="container" data-aos="fade-left" data-aos-duration="2000">
+            <div id="experience" class="container" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-center">
                 <div class="row">
-                    <div id="experience-content" class="col-10 offset-1">
+                    <a href="experience/Rapport_de_stage.pdf" target="_blank" id="experience-content" class="col-10 offset-1">
                         <img src="images/image_stage.png">
                         <div id="content-stage">
                             <div id="content-stage-left">
@@ -149,12 +149,41 @@
                                 <p>- Création d'un site regroupant des produits immobiliers sous WordPress</p>
                                 <p>- Conception et mise en place d'une simulation pour certains produits
                                 permettant aux clients de faire une projection financière</p>
-
                             </div>
                             <div id="content-stage-right">
                                 <h4>(2 mois)<h4>
                             </div>
                         </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="formations-container">
+            <h2 data-aos="fade-up" data-aos-duration="1500"
+            data-aos-anchor-placement="top-center">Formations</h2>
+            <div id="formations" class="container">
+                <div class="row">
+                    <div class="col-6 offset-3 formations-content"
+                    data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                        <h3>2019-2021</h3>
+                        <h1>BTS SIO option SLAM</h1>
+                        <h2>IPSSI</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 offset-3 formations-content"
+                    data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                        <h3>2018-2019</h3>
+                        <h1>Bachelor en Technologies de l'information</h1>
+                        <h2>EPITECH</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 offset-3 formations-content"
+                    data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                        <h3>2015-2018</h3>
+                        <h1>Baccalauréat (E.S)</h1>
+                        <h2>Lycée de l'Alma</h2>
                     </div>
                 </div>
             </div>

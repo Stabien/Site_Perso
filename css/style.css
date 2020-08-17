@@ -40,10 +40,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('font/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background: #efefef;
+    background: #EFEFEF;
 }
 
 header {
@@ -126,7 +133,7 @@ main {
     overflow: hidden;
 }
 
-#presentation h2, #experience-container h2 {
+#presentation h2, #experience-container h2, #formations-container h2 {
     font-family: 'Avenir-Roman';
     margin-bottom: 10px;
     text-align: center;
@@ -154,7 +161,7 @@ main {
     font-family: 'Avenir-Roman';
     margin: 0;
     margin-bottom: 1em;
-    margin-top: 3em;
+    margin-top: 1em;
     font-size: 2.5em;
 }
 
@@ -195,7 +202,7 @@ main {
 
 .progress-bar {
     width: 0;
-    transition: 3s !important;
+    transition: 2s !important;
 }
 
 #experience img {
@@ -203,7 +210,7 @@ main {
     height: 10em;
 }
 
-#experience-container h2 {
+#experience-container h2, #formations-container h2 {
     margin-bottom: 1em;
 }
 
@@ -215,6 +222,13 @@ main {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
     margin-bottom: 5em;
+    transition: 0.25s;
+    text-decoration: none;
+    color: black;
+}
+
+#experience-content:hover {
+    transform:scale(1.03);
 }
 
 #content-stage {
@@ -247,12 +261,6 @@ main {
     margin-bottom: 1.1em;
 }
 
-#content-stage h5 {
-    font-size: 1em;
-    opacity: 0.7;
-    margin-bottom: 0.5em;
-}
-
 #content-stage-right h3 {
     font-size: 1.2em;
 }
@@ -266,4 +274,36 @@ main {
     font-size: 0.9em;
     opacity: 0.7;
     margin-bottom: 0.25em;
+}
+
+.formations-content {
+    background: white;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+                0 1px 4px rgba(0, 0, 0, 0.24);
+    margin-bottom: 1em;
+    padding-top: 2em;
+    border-left: 5px solid #007bff;
+}
+
+#formations h3 {
+    font-size: 1.1em;
+    text-align: center;
+    font-style: bold;
+    color: #007bff;
+}
+
+#formations h1 {
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#formations h2 {
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Avenir-Roman';
+    opacity: 0.7;
+    padding-bottom: 1em;
 }

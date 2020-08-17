@@ -10,6 +10,7 @@
                 <li class="nav-item"><a href="#" class="nav-link">Compétences</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Expérience</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Formations</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Mes projets</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
             </ul>
         </nav>
