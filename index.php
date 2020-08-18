@@ -188,6 +188,38 @@
                 </div>
             </div>
         </div>
+        <div id="mes-projets" class="container-fluid">
+            <h2 data-aos="fade-up" data-aos-duration="1500"
+            data-aos-anchor-placement="top-center">Mes projets</h2>
+            <div class="projet-container">
+                <div class="projets-content">
+                    <h3>- Punchline -</h3>
+                    <p>Punchline est une application mobile en cours de développement
+                    qui a pour but d'être une application de bruitages.</p>
+                    <p>Elle est actuellement développée en JavaScript avec le framework React-Native.</p>
+                </div>
+                <div class="projets-content">
+                    <h3>- Home Template -</h3>
+                    <p>Ce projet est un modèle de page d'accueil pour un site vitrine
+                    ou proposant un service payant.</p>
+                    <p>Il a été développé en HTML, CSS et JavaScript.</p>
+                </div>
+                <div class="projets-content">
+                    <h3>- Cyaba -</h3>
+                    <p>Cyaba est un projet d'études consistant à créer un site e-commerce
+                    sur le thème High-Tech. Le projet est pratiquement terminé, seules
+                    certaines fonctionnalités doivent encore être ajoutées.</p>
+                    <p>Ce projet a été développé à l'aide de HTML, CSS, JavaScript, PHP et MySQL</p>
+                </div>
+                <div class="projets-content">
+                    <h3>- Cyaba -</h3>
+                    <p>Cyaba est un projet d'études consistant à créer un site e-commerce
+                    sur le thème High-Tech. Le projet est pratiquement terminé, seules
+                    certaines fonctionnalités doivent encore être ajoutées.</p>
+                    <p>Ce projet a été développé à l'aide de HTML, CSS, JavaScript, PHP et MySQL</p>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
     <script>
