@@ -47,6 +47,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -56,19 +63,27 @@ body {
 header {
     width: 100%;
     z-index: 2000;
+    transition: 0.6s;
 }
 
 .navbar-brand {
     margin-left: 5em;
+    color: white;
+    transition: 0.6s;
 }
 
 #navbar-content {
-    margin-right: 10em;
+    margin-right: 7em;
 }
 
 .navbar-nav li {
     margin-left: 0.5em;
     margin-right: 0.5em;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.6s;
 }
 
 #banner {
@@ -224,13 +239,13 @@ main {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
     margin-bottom: 5em;
-    transition: 0.25s;
+    transition: all 0.3s;
     text-decoration: none;
     color: black;
 }
 
 #experience-content:hover {
-    transform:scale(1.03);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #content-stage {
@@ -286,8 +301,8 @@ main {
     background: white;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
+    padding-top: 1.5em;
     margin-bottom: 1em;
-    padding-top: 2em;
     border-left: 5px solid #007bff;
 }
 
@@ -296,6 +311,7 @@ main {
     text-align: center;
     font-style: bold;
     color: #007bff;
+    font-family: 'Avenir-Roman';
 }
 
 #formations h1 {
@@ -316,25 +332,88 @@ main {
 
 #mes-projets {
     text-align: justify;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1em;
 }
 
-.projet-container {
+.projets-container {
     display: flex;
     flex-direction: row;
-    margin: 0 5em;
+    margin: auto;
+}
+
+.projets-content img {
+    position: relative;
+    width: 18em;
+    height: 12em;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    opacity: 0.5;
 }
 
 .projets-content {
-    background: white;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
-    padding: 1em;
-    width: 50%;
-    margin: 1em;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    transition: all 0.3s;
+    width: 18em;
+    background: white;
 }
 
-#mes-projets h3 {
+.projets-content:hover {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+#mes-projets h4 {
     text-align: center;
     font-family: 'Avenir-Roman';
-    font-size: 2em;
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0.5em 0;
+    color: black;
+    font-style: bold;
+}
+
+#mes-projets ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#mes-projets ul li {
+    font-family: 'Roboto';
+    padding: 0.25em 0.8em;
+    border-radius: 30px;
+    background: #007BFF;
+    color: white;
+    font-size: 0.7em;
+    list-style: none;
+    margin: 0 0.6em;
+    font-style: bold;
+}
+
+.miniature-container {
+    position: relative;
+    background: #333333;
+}
+
+.miniature-container h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 3000;
+    text-align: center;
+    font-size: 2.5em;
 }

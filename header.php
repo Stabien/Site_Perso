@@ -1,4 +1,4 @@
-<header id="header" class="navbar navbar-expand-md navbar-dark bg-dark position-fixed">
+<header class="navbar navbar-expand-md position-fixed">
     <a href="#" class="navbar-brand">Bastien PIEDALLU</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content">
        <span class="navbar-toggler-icon"></span>

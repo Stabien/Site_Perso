@@ -35,7 +35,7 @@
                 </p>
             </div>
         </div>
-        <div id="animation-container" data-aos="fade-up" data-aos-duration="1500" data-aos-id="competences" data-aos-anchor-placement="top-center">
+        <div id="competences-container" data-aos="fade-up" data-aos-duration="1500" data-aos-id="competences" data-aos-anchor-placement="top-center">
             <h2 id="competences_title">Compétences<h2>
             <div id="competences" class="container">
                 <div class="row">
@@ -163,7 +163,7 @@
             data-aos-anchor-placement="top-center">Formations</h2>
             <div id="formations" class="container">
                 <div class="row">
-                    <div class="col-6 offset-3 formations-content"
+                    <div class="col-8 offset-2 formations-content"
                     data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
                         <h3>2019-2021</h3>
                         <h1>BTS SIO option SLAM</h1>
@@ -171,7 +171,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 offset-3 formations-content"
+                    <div class="col-8 offset-2 formations-content"
                     data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-center">
                         <h3>2018-2019</h3>
                         <h1>Bachelor en Technologies de l'information</h1>
@@ -179,7 +179,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 offset-3 formations-content"
+                    <div class="col-8 offset-2 formations-content"
                     data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
                         <h3>2015-2018</h3>
                         <h1>Baccalauréat (E.S)</h1>
@@ -188,48 +188,110 @@
                 </div>
             </div>
         </div>
-        <div id="mes-projets" class="container-fluid">
+        <div id="mes-projets">
             <h2 data-aos="fade-up" data-aos-duration="1500"
             data-aos-anchor-placement="top-center">Mes projets</h2>
-            <div class="projet-container">
-                <div class="projets-content">
-                    <h3>- Punchline -</h3>
-                    <p>Punchline est une application mobile en cours de développement
-                    qui a pour but d'être une application de bruitages.</p>
-                    <p>Elle est actuellement développée en JavaScript avec le framework React-Native.</p>
-                </div>
-                <div class="projets-content">
-                    <h3>- Home Template -</h3>
-                    <p>Ce projet est un modèle de page d'accueil pour un site vitrine
-                    ou proposant un service payant.</p>
-                    <p>Il a été développé en HTML, CSS et JavaScript.</p>
-                </div>
-                <div class="projets-content">
-                    <h3>- Cyaba -</h3>
-                    <p>Cyaba est un projet d'études consistant à créer un site e-commerce
-                    sur le thème High-Tech. Le projet est pratiquement terminé, seules
-                    certaines fonctionnalités doivent encore être ajoutées.</p>
-                    <p>Ce projet a été développé à l'aide de HTML, CSS, JavaScript, PHP et MySQL</p>
-                </div>
-                <div class="projets-content">
-                    <h3>- Cyaba -</h3>
-                    <p>Cyaba est un projet d'études consistant à créer un site e-commerce
-                    sur le thème High-Tech. Le projet est pratiquement terminé, seules
-                    certaines fonctionnalités doivent encore être ajoutées.</p>
-                    <p>Ce projet a été développé à l'aide de HTML, CSS, JavaScript, PHP et MySQL</p>
-                </div>
+            <div class="projets-container">
+                <a href="#" class="projets-content" data-aos="fade-zoom-in"
+                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    <div class="miniature-container">
+                        <h3>Punchline</h3>
+                        <img src="images/punchline_miniature">
+                    </div>
+                    <h4>Punchline</h4>
+                    <ul>
+                        <li>React-Native</li>
+                        <li>NodeJS</li>
+                        <li>Expo</li>
+                    </ul>
+                </a>
+                <a href="#" class="projets-content" data-aos="fade-zoom-in" data-aos-delay="200"
+                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    <div class="miniature-container">
+                        <h3>Home Template</h3>
+                        <img src="images/home_template_miniature">
+                    </div>
+                    <h4>Home Template</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>jQuery</li>
+                    </ul>
+                </a>
+                <a href="#" class="projets-content" data-aos="fade-zoom-in" data-aos-delay="400"
+                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    <div class="miniature-container">
+                        <h3>Cyaba</h3>
+                        <img src="images/cyaba_miniature">
+                    </div>
+                    <h4>Cyaba</h4>
+                    <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>jQuery</li>
+                    </ul>
+                </a>
+                <a href="#" class="projets-content" data-aos="fade-zoom-in" data-aos-delay="600"
+                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    <div class="miniature-container">
+                        <h3>Auto Header</h3>
+                        <img src="images/Autoheader_miniature">
+                    </div>
+                    <h4>Auto Header</h4>
+                    <ul>
+                        <li>C++</li>
+                        <li>Qt</li>
+                    </ul>
+                </a>
             </div>
         </div>
     </main>
     <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
     <script>
+    // AOS initialisation
     AOS.init({
         once: true
     });
+
+    // Animate the competences progress bar when aos event is triggered
     $(document).on("aos:in:competences", function() {
         $(".progress-bar").css("width", function() {
             return $(this).attr("aria-valuenow") + "%";
         });
+    });
+
+    // Animation of the navbar on scroll
+    $(document).on("scroll", function() {
+        if (window.scrollY > 0) {
+            $("header").css({
+                "transition": "0.6s",
+                "background": "white",
+                "box-shadow": "0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23)",
+            });
+            $(".navbar-brand").css({
+                "transition": "0.6s",
+                "color": "black"
+            });
+            $(".nav-link").css({
+                "transition": "0.6s",
+                "color": "black"
+            });
+        }
+        else {
+            $("header").css({
+                "transition": "0.3s",
+                "background": "none",
+                "box-shadow": "none"
+            });
+            $(".navbar-brand").css({
+                "transition": "0.3s",
+                "color": "white"
+            });
+            $(".nav-link").css({
+                "transition": "0.3s",
+                "color": "white"
+            });
+        }
     });
     </script>
 </body>
