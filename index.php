@@ -192,8 +192,8 @@
             <h2 data-aos="fade-up" data-aos-duration="1500"
             data-aos-anchor-placement="top-center">Mes projets</h2>
             <div class="projets-container">
-                <a href="#" class="projets-content"
-                data-aos="fade-zoom-in" data-aos-duration="1500"
+                <a href="https://www.github.com/stabien/punchline" class="projets-content"
+                data-aos="zoom-in" data-aos-duration="1500" target="_blank"
                 data-aos-anchor-placement="top-center">
                     <div class="miniature-container">
                         <h3>Punchline</h3>
@@ -206,9 +206,9 @@
                         <li>Expo</li>
                         </ul>
                 </a>
-                <a href="#" class="projets-content"
-                data-aos="fade-zoom-in" data-aos-delay="200"
-                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                <a href="https://www.github.com/stabien/home_page_template" class="projets-content"
+                data-aos="zoom-in" data-aos-delay="300"data-aos-duration="1500"
+                data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
                         <img src="images/home_template_miniature" alt="Second slide">
@@ -220,9 +220,9 @@
                         <li>jQuery</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content"
-                data-aos="fade-zoom-in" data-aos-delay="400"
-                data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <a href="https://www.github.com/stabien/ppe" class="projets-content"
+                data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500"
+                data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Cyaba</h3>
                         <img src="images/cyaba_miniature" alt="Third slide">
@@ -234,9 +234,9 @@
                         <li>jQuery</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content"
-                data-aos="fade-zoom-in" data-aos-delay="600"
-                data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
+                <a href="https://www.github.com/stabien/auto_header" class="projets-content"
+                data-aos="zoom-in" data-aos-delay="900"data-aos-duration="1500"
+                data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Auto Header</h3>
                         <img src="images/Autoheader_miniature" alt="Fourth slide">
