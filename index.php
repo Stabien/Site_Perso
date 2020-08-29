@@ -9,7 +9,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <title>Template</title>
+        <title>Template</title>
 </head>
 
 <body>
@@ -192,24 +192,26 @@
             <h2 data-aos="fade-up" data-aos-duration="1500"
             data-aos-anchor-placement="top-center">Mes projets</h2>
             <div class="projets-container">
-                <a href="#" class="projets-content" data-aos="fade-zoom-in"
-                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                <a href="#" class="projets-content"
+                data-aos="fade-zoom-in" data-aos-duration="1500"
+                data-aos-anchor-placement="top-center">
                     <div class="miniature-container">
                         <h3>Punchline</h3>
-                        <img src="images/punchline_miniature">
+                        <img src="images/punchline_miniature" alt="First slide">
                     </div>
                     <h4>Punchline</h4>
                     <ul>
                         <li>React-Native</li>
                         <li>NodeJS</li>
                         <li>Expo</li>
-                    </ul>
+                        </ul>
                 </a>
-                <a href="#" class="projets-content" data-aos="fade-zoom-in" data-aos-delay="200"
+                <a href="#" class="projets-content"
+                data-aos="fade-zoom-in" data-aos-delay="200"
                 data-aos-duration="1500" data-aos-anchor-placement="top-center">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
-                        <img src="images/home_template_miniature">
+                        <img src="images/home_template_miniature" alt="Second slide">
                     </div>
                     <h4>Home Template</h4>
                     <ul>
@@ -218,11 +220,12 @@
                         <li>jQuery</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content" data-aos="fade-zoom-in" data-aos-delay="400"
-                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                <a href="#" class="projets-content"
+                data-aos="fade-zoom-in" data-aos-delay="400"
+                data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                     <div class="miniature-container">
                         <h3>Cyaba</h3>
-                        <img src="images/cyaba_miniature">
+                        <img src="images/cyaba_miniature" alt="Third slide">
                     </div>
                     <h4>Cyaba</h4>
                     <ul>
@@ -231,11 +234,12 @@
                         <li>jQuery</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content" data-aos="fade-zoom-in" data-aos-delay="600"
-                data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                <a href="#" class="projets-content"
+                data-aos="fade-zoom-in" data-aos-delay="600"
+                data-aos-duration="1500" data-aos-anchor-placement="top-bottom">
                     <div class="miniature-container">
                         <h3>Auto Header</h3>
-                        <img src="images/Autoheader_miniature">
+                        <img src="images/Autoheader_miniature" alt="Fourth slide">
                     </div>
                     <h4>Auto Header</h4>
                     <ul>
@@ -250,10 +254,10 @@
     <script>
     // AOS initialisation
     AOS.init({
-        once: true
+       once: true
     });
 
-    // Animate the competences progress bar when aos event is triggered
+    // Animates the competences progress bar when aos event is triggered
     $(document).on("aos:in:competences", function() {
         $(".progress-bar").css("width", function() {
             return $(this).attr("aria-valuenow") + "%";
