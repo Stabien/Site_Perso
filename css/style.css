@@ -57,7 +57,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #EFEFEF;
+    background: white;
 }
 
 header {
@@ -126,14 +126,14 @@ header {
     height: 250px;
     margin: auto;
     margin-top: -125px;
-    margin-bottom: 3.5em;
+    margin-bottom: 2.5em;
 }
 
 #profil img {
     width: 250px;
     height: 250px;
     border-radius: 200px;
-    border: 7px solid #efefef;
+    border: 7px solid white;
 }
 
 main {
@@ -144,12 +144,12 @@ main {
 .container-fluid {
     margin: 0;
     padding: 0;
-    margin-bottom: 30em;
     overflow: hidden;
 }
 
 #presentation h2, #experience-container h2,
-#formations-container h2, #mes-projets h2 {
+#formations-container h2, #mes-projets h2,
+#contact h2 {
     font-family: 'Avenir-Roman';
     margin-bottom: 10px;
     text-align: center;
@@ -159,17 +159,42 @@ main {
 #presentation p {
     font-size: 1.1em;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 #presentation_row, #animation-container {
     margin-bottom: 5em;
 }
 
+#presentation a {
+    width: fit-content;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    padding: 0.8em 2.75em;
+    transition: 0.3s;
+}
+
+#presentation a:hover {
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
+}
+
+#competences-container, #formations-container {
+    background: #F7F8FA;
+}
+
+#competences-container {
+    padding-top: 0.2em;
+    padding-bottom: 5em;
+}
+
 #competences {
     background: white;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
-    margin-bottom: 3em;
 }
 
 #competences_title {
@@ -227,8 +252,13 @@ main {
 }
 
 #experience-container h2, #formations-container h2,
-#mes-projets h2 {
+#mes-projets h2, #contact h2 {
     margin-bottom: 1em;
+}
+
+#experience-container {
+    padding-top: 3em;
+    padding-bottom: 4.5em;
 }
 
 #experience-content {
@@ -238,7 +268,6 @@ main {
     background: white;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
-    margin-bottom: 5em;
     transition: all 0.3s;
     text-decoration: none;
     color: black;
@@ -294,6 +323,8 @@ main {
 }
 
 #formations-container {
+    padding-top: 3em;
+    padding-bottom: 3em;
     margin-bottom: 3em;
 }
 
@@ -331,9 +362,10 @@ main {
 }
 
 #mes-projets {
-    text-align: justify;
+    text-align: center;
     margin: auto;
     margin-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 @media (min-width: 1900px) {
@@ -352,11 +384,13 @@ main {
         width: 75%;
     }
 }
+
 .projets-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1.5em;
 }
 
 .projets-content img {
@@ -431,4 +465,134 @@ main {
     text-align: center;
     font-size: 2.5em;
     font-family: 'Poppins';
+}
+
+#link-github {
+    font-size: 1em;
+    padding: 0.8em 2em;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+                0 1px 4px rgba(0, 0, 0, 0.24);
+    font-family: 'Avenir-Roman';
+    background: #007BFF;
+    color: white;
+    border-radius: 35px;
+    text-decoration: none;
+    transition: opacity 1.5s, padding 0.3s;
+}
+
+#link-github:hover {
+    padding: 0.8em 2.75em;
+}
+
+#contact {
+    background: #007BFF;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+#contact h3:first-child {
+    font-family: 'Avenir-Roman';
+    font-size: 2.3em;
+    margin-bottom: 0.5em;
+    border-bottom: 3px solid white;
+    padding-bottom: 0.2em;
+    font-style: bold;
+}
+
+#infos_contact p {
+    font-size: 1em;
+    padding: 0;
+    margin-bottom: 1.5em;
+}
+
+#infos_contact img {
+    height: 3em;
+    width: 3em;
+    color: white;
+}
+
+#container-infos-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+#container-infos-contact div {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins-light';
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+#keywords-infos {
+    margin-right: 1em;
+}
+
+#keywords-infos p {
+    font-family: 'Poppins';
+    color: white;
+}
+
+#infos-content {
+
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+}
+
+.names_input_container {
+    display: flex;
+    flex-direction: row;
+    width: 30em;
+}
+
+.names_input {
+    width: 50%;
+}
+
+#input_prenom {
+    margin-left: 0.25em;
+}
+
+#input_nom {
+    margin-right: 0.25em;
+}
+
+#contact form input, #contact form textarea {
+    margin-bottom: 0.8em;
+    background: #0061c9;
+    border: none;
+    color: white;
+    padding: 0;
+    padding-left: 0.5em;
+}
+
+#contact form textarea {
+    height: 9em;
+    padding-top: 0.5em;
+    resize: none;
+}
+
+#contact form input[type="submit"] {
+    width: 10em;
+    height: 2.5em;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"] {
+    height: 2.5em;
+}
+
+#contact form input::placeholder,
+#contact form textarea::placeholder {
+    color: white;
+    opacity: 0.5;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir-Roman';
 }

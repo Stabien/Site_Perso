@@ -33,11 +33,13 @@
                 Je me trouve actuellement en BTS SIO (option SLAM) et je suis à la recherche
                 d'une alternance en tant que développeur web dans le cadre de ma deuxième année.
                 </p>
+                <a href="cv_bastien_piedallu.pdf" target="_blank">Télécharger CV complet</a>
             </div>
         </div>
-        <div id="competences-container" data-aos="fade-up" data-aos-duration="1500" data-aos-id="competences" data-aos-anchor-placement="top-center">
-            <h2 id="competences_title">Compétences<h2>
-            <div id="competences" class="container">
+        <div id="competences-container">
+            <h2 id="competences_title" data-aos="fade-up" data-aos-duration="1500">Compétences<h2>
+            <div id="competences" class="container" data-aos="fade-up"
+            data-aos-id="competences" data-aos-duration="1500">
                 <div class="row">
                     <div class="col-lg">
                         <h3>Développement Web</h3>
@@ -199,7 +201,7 @@
                         <h3>Punchline</h3>
                         <img src="images/punchline_miniature" alt="First slide">
                     </div>
-                    <h4>Punchline</h4>
+                    <h4>Application Mobile</h4>
                     <ul>
                         <li>React-Native</li>
                         <li>NodeJS</li>
@@ -213,7 +215,7 @@
                         <h3>Home Template</h3>
                         <img src="images/home_template_miniature" alt="Second slide">
                     </div>
-                    <h4>Home Template</h4>
+                    <h4>Front-end Website</h4>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -227,7 +229,7 @@
                         <h3>Cyaba</h3>
                         <img src="images/cyaba_miniature" alt="Third slide">
                     </div>
-                    <h4>Cyaba</h4>
+                    <h4>Back-end Website</h4>
                     <ul>
                         <li>PHP</li>
                         <li>MySQL</li>
@@ -235,18 +237,61 @@
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/auto_header" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="900"data-aos-duration="1500"
+                data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Auto Header</h3>
                         <img src="images/Autoheader_miniature" alt="Fourth slide">
                     </div>
-                    <h4>Auto Header</h4>
+                    <h4>Logiciel</h4>
                     <ul>
                         <li>C++</li>
                         <li>Qt</li>
                     </ul>
                 </a>
+            </div>
+            <a id="link-github" href="https://www.github.com/Stabien" target="_blank"
+            data-aos="fade-up" data-aos-duration="1500">Voir tous mes projets</a>
+        </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div id="infos_contact" class="col-6">
+                        <h3>Informations</h3>
+                        <div id="container-infos-contact">
+                            <div id="keywords-infos">
+                                <p>Email</p>
+                                <p>Tél.</p>
+                                <p>Adresse</p>
+                            </div>
+                            <div id="infos-content">
+                                <p>b.piedallu@ecole-ipssi.net</p>
+                                <p>07 60 75 32 74</p>
+                                <p>75000 Paris</p>
+                            </div>
+                        </div>
+                        <div id="liens">
+                            <a href="http://www.github.com/stabien" target="_blank">
+                                <img src="images/github_icone.png">
+                            </a>
+                            <a href="http://www.linkedin.com/in/bastien-piedallu-b16558182/" target="_blank">
+                                <img src="images/linkedin_icone.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="form_contact" class="col-5 offset-1">
+                        <form>
+                            <h3>Me contacter</h3>
+                            <div class="names_input_container">
+                                <input type="text" class="names_input" id="input_nom" placeholder="Nom">
+                                <input type="text" class="names_input" id="input_prenom" placeholder="Prénom">
+                            </div>
+                            <input type="email" placeholder="Adresse email">
+                            <textarea type="text" placeholder="Votre message"></textarea>
+                            <input type="submit">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
