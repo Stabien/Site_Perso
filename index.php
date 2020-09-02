@@ -260,9 +260,9 @@
                         <h3>Informations</h3>
                         <div id="container-infos-contact">
                             <ul id="keywords-infos">
-                                <li><img src="images/mail_icone.png">b.piedallu@ecole-ipssi.net</li>
-                                <li><img src="images/telephone_icone.png">07 60 75 32 74</li>
-                                <li><img src="images/ville_icone.png">75000 Paris</li>
+                                <li><img src="images/mail_icone_blue.png">b.piedallu@ecole-ipssi.net</li>
+                                <li><img src="images/telephone_icone_blue.png">07 60 75 32 74</li>
+                                <li><img src="images/ville_icone_blue.png">75 Paris</li>
                             </ul>
                         </div>
                         <div id="liens">

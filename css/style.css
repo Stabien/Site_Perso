@@ -511,7 +511,7 @@ main {
     padding: 0;
     display: flex;
     flex-direction: row;
-    margin-bottom: 0.75em;
+    margin-bottom: 0.5em;
     font-size: 1.2em;
 }
 
@@ -521,7 +521,7 @@ main {
     margin: 0;
     padding: 0;
     margin-right: 0.5em;
-    padding-bottom: 0.25em;
+    padding-bottom: 0.3em;
 }
 
 #liens img {
