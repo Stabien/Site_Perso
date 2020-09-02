@@ -500,16 +500,28 @@ main {
     font-style: bold;
 }
 
-#keywords-infos img {
-    width: 2em;
-    height: 2em;
-    margin-right: 0.5em;
-    vertical-align: middle;
-    color: #007BFF;
+#keywords-infos {
+    margin: 0;
+    padding: 0;
 }
 
-#keywords-infos p {
-    font-size: 1.1em;
+#keywords-infos li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0.75em;
+    font-size: 1.2em;
+}
+
+#keywords-infos img {
+    width: 1.7em;
+    height: 1.9em;
+    margin: 0;
+    padding: 0;
+    margin-right: 0.5em;
+    padding-bottom: 0.25em;
 }
 
 #liens img {
@@ -521,6 +533,7 @@ main {
 #container-infos-contact {
     display: flex;
     flex-direction: row;
+    margin-bottom: 1.5em;
 }
 
 #container-infos-contact div {

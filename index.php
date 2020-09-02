@@ -259,11 +259,11 @@
                     <div id="infos_contact" class="col-6">
                         <h3>Informations</h3>
                         <div id="container-infos-contact">
-                            <div id="keywords-infos">
-                                <p><img src="images/mail_icone.png">b.piedallu@ecole-ipssi.net</p>
-                                <p><img src="images/telephone_icone.png">07 60 75 32 74</p>
-                                <p><img src="images/ville_icone.png">75000 Paris</p>
-                            </div>
+                            <ul id="keywords-infos">
+                                <li><img src="images/mail_icone.png">b.piedallu@ecole-ipssi.net</li>
+                                <li><img src="images/telephone_icone.png">07 60 75 32 74</li>
+                                <li><img src="images/ville_icone.png">75000 Paris</li>
+                            </ul>
                         </div>
                         <div id="liens">
                             <a href="http://www.github.com/stabien" target="_blank">
