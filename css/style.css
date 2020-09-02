@@ -164,6 +164,7 @@ main {
 
 #presentation_row, #animation-container {
     margin-bottom: 5em;
+    z-index: 0;
 }
 
 #presentation a {
@@ -485,31 +486,36 @@ main {
 }
 
 #contact {
-    background: #007BFF;
-    color: white;
-    padding-top: 1em;
-    padding-bottom: 5em;
+    background: #F7F8FA;
+    color: black;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
-#contact h3:first-child {
+#contact h3 {
     font-family: 'Avenir-Roman';
     font-size: 2.3em;
     margin-bottom: 0.5em;
-    border-bottom: 3px solid white;
     padding-bottom: 0.2em;
     font-style: bold;
 }
 
-#infos_contact p {
-    font-size: 1em;
-    padding: 0;
-    margin-bottom: 1.5em;
+#keywords-infos img {
+    width: 2em;
+    height: 2em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    color: #007BFF;
 }
 
-#infos_contact img {
+#keywords-infos p {
+    font-size: 1.1em;
+}
+
+#liens img {
     height: 3em;
     width: 3em;
-    color: white;
+    color: black;
 }
 
 #container-infos-contact {
@@ -520,8 +526,8 @@ main {
 #container-infos-contact div {
     display: flex;
     flex-direction: column;
-    font-family: 'Poppins-light';
-    font-size: 1em;
+    font-family: 'Open Sans';
+    font-size: 1.1em;
     margin-bottom: 0.5em;
 }
 
@@ -530,18 +536,26 @@ main {
 }
 
 #keywords-infos p {
-    font-family: 'Poppins';
-    color: white;
+    font-family: 'Avenir-Medium';
+    color: #555555;
 }
 
-#infos-content {
-
+#liens a {
+    text-decoration: none;
 }
 
 #contact form {
     display: flex;
     flex-direction: column;
-    width: 30em;
+    width: 34em;
+    background: white;
+    padding: 1em 2em;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+                0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+#contact form h3 {
+    color: black;
 }
 
 .names_input_container {
@@ -564,9 +578,10 @@ main {
 
 #contact form input, #contact form textarea {
     margin-bottom: 0.8em;
-    background: #0061c9;
+    background: #EFEFEF;
     border: none;
-    color: white;
+    border-radius: 3px;
+    color: black;
     padding: 0;
     padding-left: 0.5em;
 }
@@ -580,6 +595,9 @@ main {
 #contact form input[type="submit"] {
     width: 10em;
     height: 2.5em;
+    border: none;
+    background: #007BFF;
+    color: white;
 }
 
 #contact form input[type="text"],
@@ -589,7 +607,7 @@ main {
 
 #contact form input::placeholder,
 #contact form textarea::placeholder {
-    color: white;
+    color: black;
     opacity: 0.5;
     font-size: 0.9em;
     margin: 0;
