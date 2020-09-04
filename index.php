@@ -81,8 +81,45 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
+                            <li>WordPress
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
+                    <div class="col-lg">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li><span>jQuery</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>React
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Bootstrap
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Symfony
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-lg">
                         <h3>Langages de programmation</h3>
                         <ul>
@@ -106,26 +143,49 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-lg">
-                        <h3>Frameworks</h3>
+                        <h3>Environnement</h3>
                         <ul>
-                            <li><span>jQuery</span>
+                            <li>Git
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>React
+                            <li>NodeJS
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="60"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>Symfony
+                            <li>Visual Studio
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="40"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg">
+                        <h3>Audiovisuel</h3>
+                        <ul>
+                            <li>Photoshop
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Sony Vegas Pro
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Cinema 4D
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
