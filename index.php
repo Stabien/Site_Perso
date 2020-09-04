@@ -9,7 +9,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <title>Template</title>
+    <title>Template</title>
 </head>
 
 <body>
@@ -26,14 +26,16 @@
     </div>
     <main class="container-fluid">
         <div id="presentation_row" class="row">
-            <div id="presentation" class="col-8 offset-2" data-aos="fade-up" data-aos-duration="1500">
-                <h2>Présentation</h2>
-                <p>Cela fait maintenant plusieurs années
+            <div id="presentation" class="col-8 offset-2">
+                <h2 data-aos="fade-up" data-aos-duration="1500">Présentation</h2>
+                <p data-aos="fade-up" data-aos-duration="1500">Cela fait maintenant plusieurs années
                 que je suis passionné par le développement informatique.
                 Je me trouve actuellement en BTS SIO (option SLAM) et je suis à la recherche
                 d'une alternance en tant que développeur web dans le cadre de ma deuxième année.
                 </p>
-                <a href="cv_bastien_piedallu.pdf" target="_blank">Télécharger CV complet</a>
+                <a href="cv_bastien_piedallu.pdf" target="_blank"
+                data-aos="fade" data-aos-duration="1500" data-aos-delay="400"
+                data-aos-anchor-placement="top">Télécharger CV complet</a>
             </div>
         </div>
         <div id="competences-container">
@@ -209,7 +211,7 @@
                         </ul>
                 </a>
                 <a href="https://www.github.com/stabien/home_page_template" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="300"data-aos-duration="1500"
+                data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500"
                 data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
@@ -261,7 +263,7 @@
                         <div id="container-infos-contact">
                             <ul id="keywords-infos">
                                 <li><img src="images/mail_icone_blue.png">b.piedallu@ecole-ipssi.net</li>
-                                <li><img src="images/telephone_icone_blue.png">07 60 75 32 74</li>
+                                <li><img src="images/telephone_icone_blue_2.png">07 60 75 32 74</li>
                                 <li><img src="images/ville_icone_blue.png">75 Paris</li>
                             </ul>
                         </div>
@@ -318,7 +320,8 @@
             });
             $(".nav-link").css({
                 "transition": "0.6s",
-                "color": "black"
+                "color": "black",
+                "opacity": "1"
             });
         }
         else {
@@ -333,7 +336,8 @@
             });
             $(".nav-link").css({
                 "transition": "0.3s",
-                "color": "white"
+                "color": "white",
+                "opacity": "0.8"
             });
         }
     });
