@@ -70,7 +70,7 @@ header li::after{
     content: "";
     display: block;
     margin: 0 auto;
-    width: 0%;
+    width: 0px;
     padding-top: 3px;
     border-bottom: 3px solid #007BFF;
     transition: 0.3s;
@@ -85,13 +85,13 @@ header li:hover::after { /* This creates the border. Replace black with whatever
 }
 
 .navbar-brand {
-    margin-left: 5em;
+    margin-left: 5%;
     color: white;
     transition: 0.6s;
 }
 
 #navbar-content {
-    margin-right: 7em;
+    margin-right: 6%;
 }
 
 .navbar-nav li {
@@ -103,6 +103,11 @@ header li:hover::after { /* This creates the border. Replace black with whatever
     color: white;
     transition: color 0.3s !important;
     opacity: 0.8;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: 0.3s;
 }
 
 #banner {

@@ -13,7 +13,24 @@
 </head>
 
 <body>
-    <?php include('header.php'); ?>
+    <header class="navbar navbar-expand-lg position-fixed">
+        <a href="#" class="navbar-brand">Bastien PIEDALLU</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+            <nav>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">Présentation</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Compétences</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Expérience</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Formations</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Mes projets</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div id="banner">
         <img src="images/banniere.png">
         <div id="titles">
@@ -323,6 +340,7 @@
                 "color": "black",
                 "opacity": "1"
             });
+            $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
         }
         else {
             $("header").css({
@@ -339,6 +357,7 @@
                 "color": "white",
                 "opacity": "0.8"
             });
+            $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
         }
     });
     </script>
