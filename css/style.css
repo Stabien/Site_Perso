@@ -84,10 +84,14 @@ header li:hover::after { /* This creates the border. Replace black with whatever
     header ul {
         margin-top: 0.8em;
     }
+    #experience img {
+        width: 0;
+        height: 0;
+    }
 }
 
 .nav-link:hover {
-    color: inherit !important;
+    color: !important;
 }
 
 .navbar-brand {
@@ -211,6 +215,7 @@ main {
     width: fit-content;
     display: block;
     margin: 2.5em auto;
+    margin-bottom: 1em;
     border: 1px solid;
     padding: 0.8em 2.75em;
     transition: color 0.3s, background 0.3s, opacity 1.5s 0.4s;
@@ -247,9 +252,10 @@ main {
 }
 
 #competences h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 0;
+    margin: auto;
     margin-bottom: 1em;
     font-family: 'Avenir-Roman';
 }
@@ -270,10 +276,10 @@ main {
     margin-left: 5em;
     margin-right: 5em;
     padding-left: 0;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     text-align: justify;
-    margin-bottom: 1em;
-    font-family: 'poppins-light';
+    margin-bottom: 1.5em;
+    font-family: sans-serif;
     color: #333333;
 }
 
@@ -286,9 +292,23 @@ main {
     transition: 2s !important;
 }
 
+.progress {
+    height: 15px;
+}
+
 #experience img {
     width: 25%;
     height: 10em;
+}
+
+@media (max-width: 992px) {
+    #experience img {
+        width: 0;
+        height: 0;
+    }
+    #experience-content {
+        border-left: #007BFF solid 5px;
+    }
 }
 
 #experience-container h2, #formations-container h2,
@@ -593,6 +613,10 @@ main {
 
 #liens a {
     text-decoration: none;
+}
+
+#form-contact {
+    margin-right: 3%;
 }
 
 #contact form {

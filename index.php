@@ -63,7 +63,7 @@
                     <div class="col-lg">
                         <h3>Développement Web</h3>
                         <ul>
-                            <li>HTML & CSS
+                            <li>HTML/CSS
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -75,7 +75,7 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>PHP & MySQL
+                            <li>PHP/MySQL
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="60"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -161,54 +161,6 @@
                             <li>Visual Studio
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="60"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg">
-                        <h3>Audiovisuel</h3>
-                        <ul>
-                            <li>Photoshop
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>Sony Vegas Pro
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>Cinema 4D
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="55"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg">
-                        <h3>Langues</h3>
-                        <ul>
-                            <li>Français
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>Anglais
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>Espagnol
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="50"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -335,7 +287,7 @@
         <div id="contact">
             <div class="container">
                 <div class="row">
-                    <div id="infos_contact" class="col-6">
+                    <div id="infos_contact" class="col-8 offset-2 col-lg-6 offset-lg-0">
                         <h3>Informations</h3>
                         <div id="container-infos-contact">
                             <ul id="keywords-infos">
@@ -353,7 +305,7 @@
                             </a>
                         </div>
                     </div>
-                    <div id="form_contact" class="col-5 offset-1">
+                    <div id="form_contact" class="col-8 offset-2 col-lg-4 offset-lg-1">
                         <form>
                             <h3>Me contacter</h3>
                             <div class="names_input_container">
