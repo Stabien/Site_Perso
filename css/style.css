@@ -120,6 +120,12 @@ header li:hover::after { /* This creates the border. Replace black with whatever
     transition: 0.3s;
 }
 
+.anchor {
+    position: relative;
+    visibility: hidden;
+    top: -5em;
+}
+
 #banner {
     position: relative;
     width: 100%;
@@ -433,6 +439,7 @@ main {
         width: 100%;
     }
 }
+
 @media (max-width: 1899px) {
     #mes-projets {
         width: 60%;
@@ -462,6 +469,7 @@ main {
     transform: translateX(-50%);
     text-decoration: none;
     opacity: 0.5;
+    transition: 0.3s;
 }
 
 .projets-content {
@@ -470,6 +478,10 @@ main {
     margin: 1em;
     width: 22em;
     background: white;
+}
+
+.projets-content:hover img {
+    opacity: 0.8;
 }
 
 .projets-content:hover {

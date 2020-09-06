@@ -21,12 +21,12 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
             <nav>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#" class="nav-link">Présentation</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Compétences</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Expérience</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Formations</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Mes projets</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#anchor_presentation" class="nav-link">Présentation</a></li>
+                    <li class="nav-item"><a href="#anchor_competences" class="nav-link">Compétences</a></li>
+                    <li class="nav-item"><a href="#anchor_experience" class="nav-link">Expérience</a></li>
+                    <li class="nav-item"><a href="#anchor_formations" class="nav-link">Formations</a></li>
+                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Mes projets</a></li>
+                    <li class="nav-item"><a href="#anchor_contact" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,6 +43,7 @@
     </div>
     <main class="container-fluid">
         <div id="presentation_row" class="row">
+            <span class="anchor" id="anchor_presentation"></span>
             <div id="presentation" class="col-8 offset-2">
                 <h2 data-aos="fade-up" data-aos-duration="1500">Présentation</h2>
                 <p data-aos="fade-up" data-aos-duration="1500">Cela fait maintenant plusieurs années
@@ -56,6 +57,7 @@
             </div>
         </div>
         <div id="competences-container">
+            <span class="anchor" id="anchor_competences"></span>
             <h2 id="competences_title" data-aos="fade-up" data-aos-duration="1500">Compétences<h2>
             <div id="competences" class="container" data-aos="fade-up"
             data-aos-id="competences" data-aos-duration="1500">
@@ -170,8 +172,9 @@
             </div>
         </div>
         <div id="experience-container">
+            <span class="anchor" id="anchor_experience"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500">Expérience</h2>
-            <div id="experience" class="container" data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+            <div id="experience" class="container" data-aos="fade-left" data-aos-duration="1500">
                 <div class="row">
                     <a href="experience/Rapport_de_stage.pdf" target="_blank" id="experience-content" class="col-10 offset-1">
                         <img src="images/image_stage.png">
@@ -192,12 +195,12 @@
             </div>
         </div>
         <div id="formations-container">
-            <h2 data-aos="fade-up" data-aos-duration="1500"
-            data-aos-anchor-placement="top-center">Formations</h2>
+            <span class="anchor" id="anchor_formations"></span>
+            <h2 data-aos="fade-up" data-aos-duration="1500">Formations</h2>
             <div id="formations" class="container">
                 <div class="row">
                     <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    data-aos="fade-right" data-aos-duration="1500">
                         <h3>2019-2021</h3>
                         <h1>BTS SIO option SLAM</h1>
                         <h2>IPSSI</h2>
@@ -205,7 +208,7 @@
                 </div>
                 <div class="row">
                     <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-left" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    data-aos="fade-left" data-aos-duration="1500">
                         <h3>2018-2019</h3>
                         <h1>Bachelor en Technologies de l'information</h1>
                         <h2>EPITECH</h2>
@@ -213,7 +216,7 @@
                 </div>
                 <div class="row">
                     <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-right" data-aos-duration="1500" data-aos-anchor-placement="top-center">
+                    data-aos="fade-right" data-aos-duration="1500">
                         <h3>2015-2018</h3>
                         <h1>Baccalauréat (E.S)</h1>
                         <h2>Lycée de l'Alma</h2>
@@ -222,15 +225,16 @@
             </div>
         </div>
         <div id="mes-projets">
+            <span class="anchor" id="anchor_projets"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500"
-            data-aos-anchor-placement="top-center">Mes projets</h2>
+            >Mes projets</h2>
             <div class="projets-container">
                 <a href="https://www.github.com/stabien/punchline" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500" target="_blank"
-                data-aos-anchor-placement="top-center">
+                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Punchline</h3>
-                        <img src="images/punchline_miniature" alt="First slide">
+                        <img src="images/punchline_miniature">
                     </div>
                     <h4>Application Mobile</h4>
                     <ul>
@@ -244,7 +248,7 @@
                 data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
-                        <img src="images/home_template_miniature" alt="Second slide">
+                        <img src="images/home_template_miniature">
                     </div>
                     <h4>Front-end Website</h4>
                     <ul>
@@ -258,7 +262,7 @@
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Cyaba</h3>
-                        <img src="images/cyaba_miniature" alt="Third slide">
+                        <img src="images/cyaba_miniature">
                     </div>
                     <h4>Back-end Website</h4>
                     <ul>
@@ -272,7 +276,7 @@
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Auto Header</h3>
-                        <img src="images/Autoheader_miniature" alt="Fourth slide">
+                        <img src="images/Autoheader_miniature">
                     </div>
                     <h4>Logiciel</h4>
                     <ul>
@@ -285,6 +289,7 @@
             data-aos="fade-up" data-aos-duration="1500">Voir tous mes projets</a>
         </div>
         <div id="contact">
+            <span class="anchor" id="anchor_contact"></span>
             <div class="container">
                 <div class="row">
                     <div id="infos_contact" class="col-10 offset-1 mx-auto col-lg-4 offset-lg-1">
@@ -372,6 +377,8 @@
             $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
         }
     });
+
+    //scroll position script
     </script>
 </body>
 </html>
