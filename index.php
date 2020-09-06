@@ -287,7 +287,7 @@
         <div id="contact">
             <div class="container">
                 <div class="row">
-                    <div id="infos_contact" class="col-8 offset-2 col-lg-6 offset-lg-0">
+                    <div id="infos_contact" class="col-10 offset-1 mx-auto col-lg-4 offset-lg-1">
                         <h3>Informations</h3>
                         <div id="container-infos-contact">
                             <ul id="keywords-infos">
@@ -305,7 +305,7 @@
                             </a>
                         </div>
                     </div>
-                    <div id="form_contact" class="col-8 offset-2 col-lg-4 offset-lg-1">
+                    <div id="form_contact" class="col-10 offset-1 col-lg-6 offset-lg-1">
                         <form>
                             <h3>Me contacter</h3>
                             <div class="names_input_container">
