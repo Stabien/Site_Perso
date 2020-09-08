@@ -67,18 +67,18 @@ header {
     transition: 0.6s, color 0.3s;
 }
 
-header li::after{
-    content: "";
+header li span {
     display: block;
     margin: 0 auto;
     width: 0px;
-    padding-top: 3px;
+    margin-top: 7px;
+    margin-bottom: -7px;
     border-bottom: 3px solid #007BFF;
     transition: 0.3s;
 }
 
-header li:hover::after { /* This creates the border. Replace black with whatever color you want. */
-    width: 100%;
+header li:hover span { /* This creates the border. Replace black with whatever color you want. */
+    width: 100% !important;
 }
 
 @media (max-width: 991px) {
@@ -214,8 +214,8 @@ main {
     margin-bottom: 2em;
 }
 
-#presentation_row, #animation-container {
-    margin-bottom: 5em;
+#presentation_row {
+    padding-bottom: 5em;
 }
 
 #presentation a {
@@ -718,7 +718,7 @@ main {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
     border-radius: 50px;
-    opacity: 0;
+    display: none;
 }
 
 #link-to-top img {

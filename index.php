@@ -20,12 +20,12 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
             <nav>
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="#anchor_presentation" class="nav-link">Présentation</a></li>
-                    <li class="nav-item"><a href="#anchor_competences" class="nav-link">Compétences</a></li>
-                    <li class="nav-item"><a href="#anchor_experience" class="nav-link">Expérience</a></li>
-                    <li class="nav-item"><a href="#anchor_formations" class="nav-link">Formations</a></li>
-                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Mes projets</a></li>
-                    <li class="nav-item"><a href="#anchor_contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#anchor_presentation" class="nav-link">Présentation<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_competences" class="nav-link">Compétences<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_experience" class="nav-link">Expérience<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_formations" class="nav-link">Formations<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Mes projets<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_contact" class="nav-link">Contact<span></span></a></li>
                 </ul>
             </nav>
         </div>
@@ -41,7 +41,7 @@
         <img src="images/profil.jpg">
     </div>
     <main class="container-fluid">
-        <div id="presentation_row" class="row">
+        <div id="presentation_row" class="row section">
             <span class="anchor" id="anchor_presentation"></span>
             <div id="presentation" class="col-8 offset-2">
                 <h2 data-aos="fade-up" data-aos-duration="1500">Présentation</h2>
@@ -55,7 +55,7 @@
                 data-aos-anchor-placement="top">Télécharger CV complet</a>
             </div>
         </div>
-        <div id="competences-container">
+        <div id="competences-container" class="section">
             <span class="anchor" id="anchor_competences"></span>
             <h2 id="competences_title" data-aos="fade-up" data-aos-duration="1500">Compétences<h2>
             <div id="competences" class="container" data-aos="fade-up"
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </div>
-        <div id="experience-container">
+        <div id="experience-container" class="section">
             <span class="anchor" id="anchor_experience"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500">Expérience</h2>
             <div id="experience" class="container" data-aos="fade-left" data-aos-duration="1500">
@@ -193,7 +193,7 @@
                 </div>
             </div>
         </div>
-        <div id="formations-container">
+        <div id="formations-container" class="section">
             <span class="anchor" id="anchor_formations"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500">Formations</h2>
             <div id="formations" class="container">
@@ -223,7 +223,7 @@
                 </div>
             </div>
         </div>
-        <div id="mes-projets">
+        <div id="mes-projets" class="section">
             <span class="anchor" id="anchor_projets"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500"
             >Mes projets</h2>
@@ -287,7 +287,7 @@
             <a id="link-github" href="https://www.github.com/Stabien" target="_blank"
             data-aos="fade-up" data-aos-duration="1500">Voir tous mes projets</a>
         </div>
-        <div id="contact">
+        <div id="contact" class="section">
             <span class="anchor" id="anchor_contact"></span>
             <div class="container">
                 <div class="row">
@@ -325,7 +325,7 @@
             </div>
         </div>
     </main>
-    <a href="#" id="link-to-top"><img src="images/top_icone.png"></a>
+    <a href="#banner" id="link-to-top"><img src="images/top_icone.png"></a>
     <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
     <script>
     // AOS initialisation
@@ -377,18 +377,55 @@
             $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
         }
     });
+
     //link-top-icone display script
     $(document).on("scroll", function() {
-        if (window.scrollY > 500) {
-            $('#link-to-top').animate({opacity: 1}, 1000);
-            console.log('test');
-        }
-        else {
-            $('#link-to-top').animate({opacity: 0}, 1000);
-            console.log('issou');
-        }
+        if (window.scrollY > 500)
+            $('#link-to-top').fadeIn();
+        else
+            $('#link-to-top').fadeOut();
     });
-    //scroll position script
+
+    //link anchor animation script
+    $(document).ready(function() {
+        $('.nav-link, #link-to-top').on('click', function() {
+            var page = $(this).attr('href');
+            var speed = 1000;
+            $('html, body').animate({scrollTop: $(page).offset().top}, speed);
+            return false;
+        });
+    });
+
+    //Underline nav-link on scroll position
+    var nav_link = $('.nav-link').children();
+    var sections = $('.section');
+    var height_section = [0, 0, 0, 0, 0];
+    var limit = document.body.offsetHeight - window.innerHeight;
+
+    height_section[0] = 630;
+
+    for (var i = 1; i < 7; i++) {
+        height_section[i] = height_section[i - 1] + sections[i - 1].clientHeight;
+    }
+
+    $(document).on('scroll', function() {
+        for (var i = 1; i < 6; i++) {
+            if (window.scrollY < height_section[i] && window.scrollY >= height_section[i - 1])
+                $(nav_link[i - 1]).css("width", "100%");
+            else {
+                if (window.scrollY == 0)
+                    $('.nav-link').children().css("width", "0%");
+                else
+                    $(nav_link[i - 1]).css("width", "0%");
+            }
+        }
+        if (window.scrollY >= limit - 1) {
+            $('.nav-link').children().css("width", "0%");
+            $(nav_link[5]).css("width", "100%");
+        }
+        else
+            $(nav_link[5]).css("width", "0%");
+    });
     </script>
 </body>
 </html>
