@@ -61,6 +61,7 @@ body {
 }
 
 header {
+    box-shadow: none;
     width: 100%;
     z-index: 2000;
     transition: 0.6s, color 0.3s;
@@ -90,10 +91,6 @@ header li:hover::after { /* This creates the border. Replace black with whatever
     }
 }
 
-.nav-link:hover {
-    color: !important;
-}
-
 .navbar-brand {
     color: white;
     transition: 0.6s;
@@ -107,11 +104,12 @@ header li:hover::after { /* This creates the border. Replace black with whatever
 
 .navbar-nav li {
     margin-right: 0.5em;
+    width: fit-content;
 }
 
 .nav-link {
-    color: white;
-    transition: color 0.3s !important;
+    color: white !important;
+    transition: 0.3s;
     opacity: 0.8;
 }
 
@@ -136,6 +134,9 @@ header li:hover::after { /* This creates the border. Replace black with whatever
 #banner img {
     width: 1920px;
     height: 35em;
+    align-self: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (min-width: 1920px) {
@@ -706,4 +707,21 @@ main {
     #infos_contact ul {
         margin: auto;
     }
+}
+
+#link-to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 2.2em;
+    height: 2.2em;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+                0 1px 4px rgba(0, 0, 0, 0.24);
+    border-radius: 50px;
+    opacity: 0;
+}
+
+#link-to-top img {
+    width: 2.2em;
+    height: 2.2em;
 }
