@@ -226,6 +226,7 @@ main {
     border: 1px solid;
     padding: 0.8em 2.75em;
     transition: color 0.3s, background 0.3s, opacity 1.5s 0.4s;
+    text-align: center;
 }
 
 #presentation a:hover {
@@ -308,16 +309,6 @@ main {
     height: 10em;
 }
 
-@media (max-width: 992px) {
-    #experience img {
-        width: 0;
-        height: 0;
-    }
-    #experience-content {
-        border-left: #007BFF solid 5px;
-    }
-}
-
 #experience-container h2, #formations-container h2,
 #mes-projets h2, #contact h2 {
     margin-bottom: 1em;
@@ -358,10 +349,14 @@ main {
     width: 80%;
 }
 
+#date {
+    display: none;
+}
+
 #content-stage-right {
     text-align: right;
     margin-right: 1em;
-    width: 20%;
+    width: 25%;
 }
 
 #content-stage h3, #content-stage h4 {
@@ -389,6 +384,16 @@ main {
     margin-bottom: 0.25em;
 }
 
+@media (max-width: 992px) {
+    #experience img {
+        width: 0;
+        height: 0;
+    }
+    #experience-content {
+        border-left: #007BFF solid 5px;
+    }
+}
+
 #formations-container {
     padding-top: 3em;
     padding-bottom: 3em;
@@ -413,7 +418,7 @@ main {
 }
 
 #formations h1 {
-    font-family: 'Open Sans';
+    font-family: 'Avenir-Roman';
     font-size: 1.3em;
     text-align: center;
     margin-bottom: 0.5em;
