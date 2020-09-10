@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css"/>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=400px, initial-scale=1 maximum-scale=1, minimum-scale=0.7">
     <title>Template</title>
 </head>
 
@@ -233,7 +234,7 @@
                 data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Punchline</h3>
-                        <img src="images/punchline_miniature">
+                        <img src="images/punchline_miniature.jpg">
                     </div>
                     <h4>Application Mobile</h4>
                     <ul>
@@ -247,7 +248,7 @@
                 data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
-                        <img src="images/home_template_miniature">
+                        <img src="images/home_template_miniature.jpg">
                     </div>
                     <h4>Front-end Website</h4>
                     <ul>
@@ -261,7 +262,7 @@
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Cyaba</h3>
-                        <img src="images/cyaba_miniature">
+                        <img src="images/cyaba_miniature.png">
                     </div>
                     <h4>Back-end Website</h4>
                     <ul>
@@ -275,7 +276,7 @@
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Auto Header</h3>
-                        <img src="images/Autoheader_miniature">
+                        <img src="images/Autoheader_miniature.jpg">
                     </div>
                     <h4>Logiciel</h4>
                     <ul>
@@ -309,15 +310,16 @@
                             </a>
                         </div>
                     </div>
+                    <?php include('mail.php'); ?>
                     <div id="form_contact" class="col-10 offset-1 col-lg-6 offset-lg-1">
-                        <form>
+                        <form action="" method="POST">
                             <h3>Me contacter</h3>
                             <div class="names_input_container">
-                                <input type="text" class="names_input" id="input_nom" placeholder="Nom">
-                                <input type="text" class="names_input" id="input_prenom" placeholder="Prénom">
+                                <input type="text" class="names_input" name="nom" id="input_nom" placeholder="Nom">
+                                <input type="text" class="names_input" name="prenom" id="input_prenom" placeholder="Prénom">
                             </div>
-                            <input type="email" placeholder="Adresse email">
-                            <textarea type="text" placeholder="Votre message"></textarea>
+                            <input type="email" placeholder="Adresse email" name='email'>
+                            <textarea type="text" placeholder="Votre message" name="message"></textarea>
                             <input type="submit">
                         </form>
                     </div>
@@ -400,15 +402,15 @@
     var nav_link = $('.nav-link').children();
     var sections = $('.section');
     var height_section = [0, 0, 0, 0, 0];
-    var limit = document.body.offsetHeight - window.innerHeight;
 
     height_section[0] = 630;
 
-    for (var i = 1; i < 7; i++) {
-        height_section[i] = height_section[i - 1] + sections[i - 1].clientHeight;
-    }
-
     $(document).on('scroll', function() {
+        var limit = document.body.offsetHeight - window.innerHeight;
+
+        for (var i = 1; i < 7; i++) {
+            height_section[i] = height_section[i - 1] + sections[i - 1].clientHeight;
+        }
         for (var i = 1; i < 6; i++) {
             if (window.scrollY < height_section[i] && window.scrollY >= height_section[i - 1])
                 $(nav_link[i - 1]).css("width", "100%");
@@ -419,7 +421,7 @@
                     $(nav_link[i - 1]).css("width", "0%");
             }
         }
-        if (window.scrollY >= limit - 1) {
+        if (window.scrollY >= limit - 1 || window.scrollY >= height_section[5]) {
             $('.nav-link').children().css("width", "0%");
             $(nav_link[5]).css("width", "100%");
         }
