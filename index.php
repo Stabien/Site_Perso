@@ -318,9 +318,10 @@
                                 <input type="text" class="names_input" name="nom" id="input_nom" placeholder="Nom">
                                 <input type="text" class="names_input" name="prenom" id="input_prenom" placeholder="Prénom">
                             </div>
-                            <input type="email" placeholder="Adresse email" name='email'>
-                            <textarea type="text" placeholder="Votre message" name="message"></textarea>
-                            <input type="submit">
+                            <input type="email" placeholder="Adresse email" name="email" id="input_email">
+                            <textarea type="text" placeholder="Votre message" name="message" id="input_message"></textarea>
+                            <input type="submit" id="submit">
+                            <p id="form_submit" style="display: none">Votre message a bien été envoyé ! </p>
                         </form>
                     </div>
                 </div>
@@ -343,6 +344,25 @@
     });
 
     // Animation of the navbar on scroll
+    $(document).ready(function() {
+        if (window.scrollY > 0) {
+            $("header").css({
+                "transition": "0.6s",
+                "background": "white",
+                "box-shadow": "0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23)",
+            });
+            $(".navbar-brand").css({
+                "transition": "0.6s",
+                "color": "black"
+            });
+            $(".nav-link").css({
+                "transition": "0.6s",
+                "opacity": "1"
+            });
+            $('.nav-link').attr("style", "color: black !important");
+            $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
+        }
+    });
     $(document).on("scroll", function() {
         if (window.scrollY > 0) {
             $("header").css({
@@ -408,9 +428,8 @@
     $(document).on('scroll', function() {
         var limit = document.body.offsetHeight - window.innerHeight;
 
-        for (var i = 1; i < 7; i++) {
+        for (var i = 1; i < 7; i++)
             height_section[i] = height_section[i - 1] + sections[i - 1].clientHeight;
-        }
         for (var i = 1; i < 6; i++) {
             if (window.scrollY < height_section[i] && window.scrollY >= height_section[i - 1])
                 $(nav_link[i - 1]).css("width", "100%");
@@ -427,6 +446,24 @@
         }
         else
             $(nav_link[5]).css("width", "0%");
+    });
+
+    //submit scroll and text validation
+
+    $('form').submit(function(e) {
+        e.preventDefault();
+
+        var form = $(this);
+        var url = form.attr('action');
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(),
+            success: function() {
+                $('#form_submit').css('display', 'block');
+            }
+        });
     });
     </script>
 </body>
