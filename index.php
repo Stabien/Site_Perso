@@ -310,16 +310,19 @@
                             </a>
                         </div>
                     </div>
-                    <?php include('mail.php'); ?>
                     <div id="form_contact" class="col-10 offset-1 col-lg-6 offset-lg-1">
                         <form action="" method="POST">
                             <h3>Me contacter</h3>
                             <div class="names_input_container">
-                                <input type="text" class="names_input" name="nom" id="input_nom" placeholder="Nom">
-                                <input type="text" class="names_input" name="prenom" id="input_prenom" placeholder="Prénom">
+                                <input type="text" class="contact_input"
+                                name="nom" id="input_nom" placeholder="Nom">
+                                <input type="text" class="contact_input"
+                                name="prenom" id="input_prenom" placeholder="Prénom">
                             </div>
-                            <input type="email" placeholder="Adresse email" name="email" id="input_email">
-                            <textarea type="text" placeholder="Votre message" name="message" id="input_message"></textarea>
+                            <input type="text" placeholder="Adresse email"
+                            name="email" id="input_email" class="contact_input">
+                            <textarea type="text" placeholder="Votre message"
+                            name="message" id="input_message" class="contact_input"></textarea>
                             <input type="submit" id="submit">
                             <p id="form_submit" style="display: none">Votre message a bien été envoyé ! </p>
                         </form>
@@ -328,7 +331,7 @@
             </div>
         </div>
     </main>
-    <a href="#banner" id="link-to-top"><img src="images/top_icone.png"></a>
+    <a href="#banner" id="link-to-top"><img src="images/top_icone_2.png"></a>
     <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
     <script>
     // AOS initialisation
@@ -413,6 +416,7 @@
         $('.nav-link, #link-to-top').on('click', function() {
             var page = $(this).attr('href');
             var speed = 1000;
+
             $('html, body').animate({scrollTop: $(page).offset().top}, speed);
             return false;
         });
@@ -449,19 +453,33 @@
     });
 
     //submit scroll and text validation
-
     $('form').submit(function(e) {
         e.preventDefault();
 
         var form = $(this);
         var url = form.attr('action');
+        var inputs = $('.contact_input');
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
+        for (var i = 0; i < 4; i++) {
+            if (inputs.eq(i).val().length <= 3 && i != 2) {
+                inputs.eq(i).attr('style', 'border: 2px solid red');
+                return false;
+            }
+            else if (i == 2 && re.test(inputs.eq(i).val()) == false) {
+                inputs.eq(i).attr('style', 'border: 2px solid red');
+                return false;
+            }
+            else
+                inputs.eq(i).css('border', 'none');
+        }
         $.ajax({
             type: "POST",
             url: url,
             data: form.serialize(),
             success: function() {
                 $('#form_submit').css('display', 'block');
+                $('.contact_input').val('');
             }
         });
     });
