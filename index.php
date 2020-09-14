@@ -46,10 +46,10 @@
             <span class="anchor" id="anchor_presentation"></span>
             <div id="presentation" class="col-8 offset-2">
                 <h2 data-aos="fade-up" data-aos-duration="1500">Présentation</h2>
-                <p data-aos="fade-up" data-aos-duration="1500">Cela fait maintenant plusieurs années
-                que je suis passionné par le développement informatique.
-                Je me trouve actuellement en BTS SIO (option SLAM) et je suis à la recherche
-                d'une alternance en tant que développeur web dans le cadre de ma deuxième année.
+                <p data-aos="fade-up" data-aos-duration="1500"> Étudiant en BTS SIO (SLAM) à l'école IPSSI située à Paris,
+                je suis à la recherche d'une alternance en tant que développeur web junior. Passionné par le développement informatique,
+                je maîtrise aussi bien les langages Front-End que Back-End ainsi que certains langages de programmations.
+                Pour plus d'informations n'hésitez pas à me contacter !
                 </p>
                 <a href="cv_bastien_piedallu.pdf" target="_blank"
                 data-aos="fade" data-aos-duration="1500" data-aos-delay="400"
@@ -229,28 +229,14 @@
             <h2 data-aos="fade-up" data-aos-duration="1500"
             >Mes projets</h2>
             <div class="projets-container">
-                <a href="https://www.github.com/stabien/punchline" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500"
-                data-aos-anchor-placement="top-center" target="_blank">
-                    <div class="miniature-container">
-                        <h3>Punchline</h3>
-                        <img src="images/punchline_miniature.jpg">
-                    </div>
-                    <h4>Application Mobile</h4>
-                    <ul>
-                        <li>React-Native</li>
-                        <li>NodeJS</li>
-                        <li>Expo</li>
-                        </ul>
-                </a>
                 <a href="https://www.github.com/stabien/home_page_template" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500"
+                data-aos="zoom-in" data-aos-duration="1500"
                 data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
                         <img src="images/home_template_miniature.jpg">
                     </div>
-                    <h4>Front-end Website</h4>
+                    <h4>Site vitrine</h4>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -258,17 +244,31 @@
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/ppe" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500"
-                data-aos-anchor-placement="top-bottom" target="_blank">
+                data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500"
+                data-aos-anchor-placement="top-center" target="_blank">
                     <div class="miniature-container">
                         <h3>Cyaba</h3>
                         <img src="images/cyaba_miniature.png">
                     </div>
-                    <h4>Back-end Website</h4>
+                    <h4>Site e-commerce</h4>
                     <ul>
                         <li>PHP</li>
                         <li>MySQL</li>
                         <li>jQuery</li>
+                    </ul>
+                </a>
+                <a href="https://www.github.com/stabien/punchline" class="projets-content"
+                data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600"
+                data-aos-anchor-placement="top-bottom" target="_blank">
+                    <div class="miniature-container">
+                        <h3>Punchline</h3>
+                        <img src="images/punchline_miniature.jpg">
+                    </div>
+                    <h4>Application mobile</h4>
+                    <ul>
+                        <li>React-Native</li>
+                        <li>NodeJS</li>
+                        <li>Expo</li>
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/auto_header" class="projets-content"
@@ -338,151 +338,12 @@
     AOS.init({
        once: true
     });
-
-    // Animates the competences progress bar when aos event is triggered
-    $(document).on("aos:in:competences", function() {
-        $(".progress-bar").css("width", function() {
-            return $(this).attr("aria-valuenow") + "%";
-        });
-    });
-
-    // Animation of the navbar on scroll
-    $(document).ready(function() {
-        if (window.scrollY > 0) {
-            $("header").css({
-                "transition": "0.6s",
-                "background": "white",
-                "box-shadow": "0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23)",
-            });
-            $(".navbar-brand").css({
-                "transition": "0.6s",
-                "color": "black"
-            });
-            $(".nav-link").css({
-                "transition": "0.6s",
-                "opacity": "1"
-            });
-            $('.nav-link').attr("style", "color: black !important");
-            $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
-        }
-    });
-    $(document).on("scroll", function() {
-        if (window.scrollY > 0) {
-            $("header").css({
-                "transition": "0.6s",
-                "background": "white",
-                "box-shadow": "0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23)",
-            });
-            $(".navbar-brand").css({
-                "transition": "0.6s",
-                "color": "black"
-            });
-            $(".nav-link").css({
-                "transition": "0.6s",
-                "opacity": "1"
-            });
-            $('.nav-link').attr("style", "color: black !important");
-            $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
-        }
-        else {
-            $("header").css({
-                "transition": "0.3s",
-                "background": "none",
-                "box-shadow": "none"
-            });
-            $(".navbar-brand").css({
-                "transition": "0.3s",
-                "color": "white"
-            });
-            $(".nav-link").css({
-                "transition": "0.3s",
-                "color": "white",
-                "opacity": "0.8"
-            });
-            $(".navbar-toggler-icon").css("background-image", "url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e\")");
-        }
-    });
-
-    //link-top-icone display script
-    $(document).on("scroll", function() {
-        if (window.scrollY > 500)
-            $('#link-to-top').fadeIn();
-        else
-            $('#link-to-top').fadeOut();
-    });
-
-    //link anchor animation script
-    $(document).ready(function() {
-        $('.nav-link, #link-to-top').on('click', function() {
-            var page = $(this).attr('href');
-            var speed = 1000;
-
-            $('html, body').animate({scrollTop: $(page).offset().top}, speed);
-            return false;
-        });
-    });
-
-    //Underline nav-link on scroll position
-    var nav_link = $('.nav-link').children();
-    var sections = $('.section');
-    var height_section = [0, 0, 0, 0, 0];
-
-    height_section[0] = 630;
-
-    $(document).on('scroll', function() {
-        var limit = document.body.offsetHeight - window.innerHeight;
-
-        for (var i = 1; i < 7; i++)
-            height_section[i] = height_section[i - 1] + sections[i - 1].clientHeight;
-        for (var i = 1; i < 6; i++) {
-            if (window.scrollY < height_section[i] && window.scrollY >= height_section[i - 1])
-                $(nav_link[i - 1]).css("width", "100%");
-            else {
-                if (window.scrollY == 0)
-                    $('.nav-link').children().css("width", "0%");
-                else
-                    $(nav_link[i - 1]).css("width", "0%");
-            }
-        }
-        if (window.scrollY >= limit - 1 || window.scrollY >= height_section[5]) {
-            $('.nav-link').children().css("width", "0%");
-            $(nav_link[5]).css("width", "100%");
-        }
-        else
-            $(nav_link[5]).css("width", "0%");
-    });
-
-    //submit scroll and text validation
-    $('form').submit(function(e) {
-        e.preventDefault();
-
-        var form = $(this);
-        var url = form.attr('action');
-        var inputs = $('.contact_input');
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
-        for (var i = 0; i < 4; i++) {
-            if (inputs.eq(i).val().length <= 3 && i != 2) {
-                inputs.eq(i).attr('style', 'border: 2px solid red');
-                return false;
-            }
-            else if (i == 2 && re.test(inputs.eq(i).val()) == false) {
-                inputs.eq(i).attr('style', 'border: 2px solid red');
-                return false;
-            }
-            else
-                inputs.eq(i).css('border', 'none');
-        }
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: form.serialize(),
-            success: function() {
-                $('#form_submit').css('display', 'block');
-                $('.contact_input').val('');
-            }
-        });
-    });
     </script>
+    <script src="js/aos_event.js"></script>
+    <script src="js/button_top.js"></script>
+    <script src="js/nav_scroll.js"></script>
+    <script src="js/nav_link_anchor_animation.js"></script>
+    <script src="js/nav_link_underline.js"></script>
+    <script src="js/submit_form.js"></script>
 </body>
 </html>

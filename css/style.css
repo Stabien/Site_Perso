@@ -326,14 +326,14 @@ main {
     background: white;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
                 0 1px 4px rgba(0, 0, 0, 0.24);
-    transition: all 0.4s;
+    transition: all 0.3s;
     text-decoration: none;
     color: black;
 }
 
 #experience-content:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 #content-stage {
@@ -488,7 +488,7 @@ main {
 }
 
 .projets-content:hover img {
-    opacity: 0.8;
+
 }
 
 .projets-content:hover {
@@ -542,8 +542,8 @@ main {
     color: white;
     z-index: 1000;
     text-align: center;
-    font-size: 2.5em;
-    font-family: 'Poppins';
+    font-size: 2.8em;
+    font-family: 'Avenir-Roman';
 }
 
 #link-github {
