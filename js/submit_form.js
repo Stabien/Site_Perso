@@ -1,5 +1,4 @@
 //submit scroll and text validation
-
 $('form').submit(function(e) {
     e.preventDefault();
 

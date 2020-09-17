@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=600, maximum-scale=1">
-    <title>Template</title>
+    <title>Bastien PIEDALLU</title>
 </head>
 
 <body>
@@ -45,13 +45,15 @@
         <div id="presentation_row" class="row section">
             <span class="anchor" id="anchor_presentation"></span>
             <div id="presentation" class="col-8 offset-2">
-                <h2 data-aos="fade-up" data-aos-duration="1500">Présentation</h2>
-                <p data-aos="fade-up" data-aos-duration="1500"> Étudiant en BTS SIO (SLAM) à l'école IPSSI située à Paris,
-                je suis à la recherche d'une alternance en tant que développeur web junior. Passionné par le développement informatique,
-                je maîtrise aussi bien les langages Front-End que Back-End ainsi que certains langages de programmations.
-                Pour plus d'informations n'hésitez pas à me contacter !
-                </p>
-                <a href="cv_bastien_piedallu.pdf" target="_blank"
+                <div id="aos-animation-container" data-aos="fade-up" data-aos-duration="1500">
+                    <h2>Présentation</h2>
+                    <p> Étudiant en BTS SIO (SLAM) à l'école IPSSI située à Paris,
+                    je suis à la recherche d'une alternance en tant que développeur web junior. Passionné par le développement informatique,
+                    je maîtrise aussi bien les langages Front-End que Back-End ainsi que certains langages de programmations.
+                    Pour plus d'informations n'hésitez pas à me contacter !
+                    </p>
+                </div>
+                <a href="documents/cv_bastien_piedallu.pdf" target="_blank"
                 data-aos="fade" data-aos-duration="1500" data-aos-delay="400"
                 data-aos-anchor-placement="top">Télécharger CV complet</a>
             </div>
@@ -176,7 +178,7 @@
             <h2 data-aos="fade-up" data-aos-duration="1500">Expérience</h2>
             <div id="experience" class="container" data-aos="fade-left" data-aos-duration="1500">
                 <div class="row">
-                    <a href="experience/Rapport_de_stage.pdf" target="_blank" id="experience-content" class="col-10 offset-1">
+                    <a href="documents/Rapport_de_stage.pdf" target="_blank" id="experience-content" class="col-10 offset-1">
                         <img src="images/image_stage.png">
                         <div id="content-stage">
                             <div id="content-stage-left">
@@ -231,34 +233,33 @@
             <div class="projets-container">
                 <a href="https://www.github.com/stabien/home_page_template" class="projets-content"
                 data-aos="zoom-in" data-aos-duration="1500"
-                data-aos-anchor-placement="top-center" target="_blank">
+                data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Home Template</h3>
                         <img src="images/home_template_miniature.jpg">
                     </div>
                     <h4>Site vitrine</h4>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li>HTML/CSS</li>
                         <li>jQuery</li>
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/ppe" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1500"
-                data-aos-anchor-placement="top-center" target="_blank">
+                data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500"
+                data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Cyaba</h3>
                         <img src="images/cyaba_miniature.png">
                     </div>
                     <h4>Site e-commerce</h4>
                     <ul>
-                        <li>PHP</li>
-                        <li>MySQL</li>
+                        <li>HTML/CSS</li>
+                        <li>PHP/MySQL</li>
                         <li>jQuery</li>
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/punchline" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600"
+                data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Punchline</h3>
@@ -272,7 +273,7 @@
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/auto_header" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="900" data-aos-duration="1500"
+                data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Auto Header</h3>
@@ -302,10 +303,10 @@
                             </ul>
                         </div>
                         <div id="liens">
-                            <a href="http://www.github.com/stabien" target="_blank">
+                            <a href="https://www.github.com/stabien" target="_blank">
                                 <img src="images/github_icone.png">
                             </a>
-                            <a href="http://www.linkedin.com/in/bastien-piedallu-b16558182/" target="_blank">
+                            <a href="https://www.linkedin.com/in/bastien-piedallu-b16558182/" target="_blank">
                                 <img src="images/linkedin_icone.png">
                             </a>
                         </div>
@@ -342,8 +343,7 @@
     <script src="js/aos_event.js"></script>
     <script src="js/button_top.js"></script>
     <script src="js/nav_scroll.js"></script>
-    <script src="js/nav_link_anchor_animation.js"></script>
-    <script src="js/nav_link_underline.js"></script>
     <script src="js/submit_form.js"></script>
+    <script src="js/projet_hover_animation.js"></script>
 </body>
 </html>
