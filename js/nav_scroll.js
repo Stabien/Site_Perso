@@ -61,7 +61,7 @@ var nav_link = $('.nav-link').children();
 var sections = $('.section');
 var height_section = [0, 0, 0, 0, 0];
 
-height_section[0] = 630;
+height_section[0] = 620;
 
 $(document).on('scroll', function() {
     var limit = document.body.offsetHeight - window.innerHeight;
