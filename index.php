@@ -108,7 +108,7 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>React-Native
+                            <li>React Native
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100"></div>
