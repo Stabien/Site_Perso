@@ -48,7 +48,7 @@
                 <div id="aos-animation-container" data-aos="fade-up" data-aos-duration="1500">
                     <h2>Présentation</h2>
                     <p> Étudiant en BTS SIO (SLAM) à l'école IPSSI située à Paris,
-                    je suis à la recherche d'une alternance en tant que développeur web junior. Passionné par le développement informatique,
+                    je suis à la recherche d'une alternance en tant que développeur full stack junior. Passionné par le développement informatique,
                     je maîtrise aussi bien les langages Front-End que Back-End ainsi que certains langages de programmations.
                     Pour plus d'informations n'hésitez pas à me contacter !
                     </p>
@@ -79,15 +79,15 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>PHP/MySQL
+                            <li>PHP
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>WordPress
+                            <li>MySQL
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
