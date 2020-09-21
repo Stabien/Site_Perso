@@ -69,19 +69,19 @@
                         <ul>
                             <li>HTML/CSS
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>JavaScript
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>PHP/MySQL
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -98,25 +98,25 @@
                         <ul>
                             <li><span>jQuery</span>
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>React
+                            <li>React.js
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>React-Native
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>Bootstrap
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
-                            <li>Symfony
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="40"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -141,7 +141,7 @@
                             </li>
                             <li>Python
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -152,19 +152,19 @@
                         <ul>
                             <li>Git
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>NodeJS
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>Visual Studio
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
