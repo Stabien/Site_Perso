@@ -14,7 +14,7 @@
 
 <body>
     <header class="navbar navbar-expand-lg position-fixed">
-        <span href="#" class="navbar-brand">Bastien PIEDALLU</span>
+        <span class="navbar-brand">Bastien PIEDALLU</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
            <span class="navbar-toggler-icon"></span>
         </button>
@@ -235,13 +235,13 @@
                 data-aos="zoom-in" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
-                        <h3>Home Template</h3>
+                        <h3>Gallery Template</h3>
                         <img src="images/home_template_miniature.jpg">
                     </div>
-                    <h4>Site vitrine</h4>
+                    <h4>Site galerie photo</h4>
                     <ul>
-                        <li>HTML/CSS</li>
-                        <li>jQuery</li>
+                        <li>ReactJS</li>
+                        <li>NodeJS</li>
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/ppe" class="projets-content"
