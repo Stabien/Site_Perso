@@ -231,12 +231,12 @@
             <h2 data-aos="fade-up" data-aos-duration="1500"
             >Mes projets</h2>
             <div class="projets-container">
-                <a href="https://www.github.com/stabien/home_page_template" class="projets-content"
+                <a href="https://www.github.com/stabien/Gallery_template" class="projets-content"
                 data-aos="zoom-in" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Gallery Template</h3>
-                        <img src="images/home_template_miniature.jpg">
+                        <img src="images/gallery_template_miniature.jpg">
                     </div>
                     <h4>Site galerie photo</h4>
                     <ul>
