@@ -242,6 +242,7 @@
                     <ul>
                         <li>ReactJS</li>
                         <li>NodeJS</li>
+                        <li>Bootstrap</li>
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/ppe" class="projets-content"
@@ -254,7 +255,8 @@
                     <h4>Site e-commerce</h4>
                     <ul>
                         <li>HTML/CSS</li>
-                        <li>PHP/MySQL</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
                         <li>jQuery</li>
                     </ul>
                 </a>
