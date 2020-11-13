@@ -91,32 +91,44 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
+                            <li>TypeScript
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg">
                         <h3>Frameworks</h3>
                         <ul>
-                            <li><span>jQuery</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                            </li>
                             <li>React.js
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>React Native
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>Bootstrap
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Express.js
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>AngularJS
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="55"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -148,7 +160,7 @@
                         </ul>
                     </div>
                     <div class="col-lg">
-                        <h3>Environnement</h3>
+                        <h3>Environnements</h3>
                         <ul>
                             <li>Git
                                 <div class="progress">
@@ -156,7 +168,7 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>NodeJS
+                            <li>Node.js
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="65"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -245,7 +257,7 @@
                         <li>Bootstrap</li>
                     </ul>
                 </a>
-                <a href="https://www.github.com/stabien/ppe" class="projets-content"
+                <a href="https://www.github.com/stabien/cyaba" class="projets-content"
                 data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
