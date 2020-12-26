@@ -39,7 +39,7 @@
         </div>
     </div>
     <div id="profil">
-        <img src="images/profil.jpg">
+        <img src="images/profil.png">
     </div>
     <main class="container-fluid">
         <div id="presentation_row" class="row section">
