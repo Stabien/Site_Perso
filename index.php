@@ -266,10 +266,9 @@
                     </div>
                     <h4>Site e-commerce</h4>
                     <ul>
-                        <li>HTML/CSS</li>
+                        <li>jQuery</li>
                         <li>PHP</li>
                         <li>MySQL</li>
-                        <li>jQuery</li>
                     </ul>
                 </a>
                 <a href="https://www.github.com/stabien/punchline" class="projets-content"
