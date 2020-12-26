@@ -290,13 +290,14 @@
                 data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
-                        <h3>Auto Header</h3>
-                        <img src="images/Autoheader_miniature.jpg">
+                        <h3>Youtube Records</h3>
+                        <img src="images/youtube_records_miniature.png">
                     </div>
-                    <h4>Logiciel</h4>
+                    <h4>Extension Chrome</h4>
                     <ul>
-                        <li>C++</li>
-                        <li>Qt</li>
+                        <li>JavaScript</li>
+                        <li>Express.js</li>
+                        <li>Socket.io</li>
                     </ul>
                 </a>
             </div>
