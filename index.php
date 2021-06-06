@@ -216,7 +216,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container experience" data-aos="fade-right" data-aos-duration="1500">
+            <div class="container experience" data-aos="fade-left" data-aos-duration="1500">
                 <div class="row">
                     <div class="experience-content col-10 offset-1">
                         <div class="content-stage">
@@ -235,11 +235,11 @@
                     </div>
                 </div>
             </div>
-            <div class="container experience" data-aos="fade-left" data-aos-duration="1500">
+            <div class="container experience" data-aos="fade-right" data-aos-duration="1500">
                 <div class="row">
                     <div class="experience-content col-10 offset-1">
                         <div class="content-stage">
-                            <h3>Développeur Web Junior</h3>
+                            <h3>Développeur Web</h3>
                             <h4>IFGPE</h4>
                             <span>Mars 2020 - Avril 2020</span>
                             <ul>
@@ -292,7 +292,7 @@
             <h2 data-aos="fade-up" data-aos-duration="1500">Projets</h2>
             <div class="projets-container">
                 <a href="#" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Zorro en Couleur</h3>
@@ -307,7 +307,7 @@
                     </ul>
                 </a>
                 <a href="#" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Nutrifinder</h3>
@@ -322,7 +322,7 @@
                     </ul>
                 </a>
                 <a href="#" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Youtube Records</h3>
@@ -336,7 +336,7 @@
                     </ul>
                 </a>
                 <a href="#" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Gallery Template</h3>
