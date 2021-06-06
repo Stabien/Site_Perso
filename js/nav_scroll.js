@@ -1,4 +1,3 @@
-// Animation of the navbar on scroll
 $(document).ready(function() {
     if (window.scrollY > 0) {
         $("header").css({

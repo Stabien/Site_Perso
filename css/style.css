@@ -308,17 +308,11 @@ main {
     height: 15px;
 }
 
-#experience img {
-    width: 25%;
-    height: 10em;
-}
-
 #experience-container {
-    padding-top: 3em;
-    padding-bottom: 4.5em;
+    padding: 50px;
 }
 
-#experience-content {
+.experience-content {
     display: flex;
     flex-direction: row;
     padding: 0;
@@ -328,69 +322,57 @@ main {
     transition: all 0.3s;
     text-decoration: none;
     color: black;
+    margin-bottom: 30px;
 }
 
-#experience-content:hover {
+.experience-content:hover {
+    color: black;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    transform: scale(1.03);
 }
 
-#content-stage {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    margin-top: 0.7em;
-    margin-bottom: 1em;
+.experience-content {
+    border-left: #8520E1 solid 5px;
 }
 
-#content-stage-left, #content-stage-right {
+.content-stage {
+    padding: 30px 15px;
     margin-left: 3em;
     margin-top: 0.5em;
     width: 80%;
 }
 
-#date {
-    display: none;
-}
-
-#content-stage-right {
-    text-align: right;
-    margin-right: 1em;
-    width: 25%;
-}
-
-#content-stage h3, #content-stage h4 {
+.content-stage h3 {
     font-family: 'Avenir-Roman';
+    margin-bottom: 4px;
 }
 
-#content-stage h4 {
-    font-size: 1.1em;
-    font-style: bold;
-    margin-bottom: 1.1em;
+.content-stage h4 {
+    color: #8520E1;
+    margin-bottom: 12px;
+    font-family: 'Avenir-Roman';
+    font-size: 18px;
 }
 
-#content-stage-right h3 {
-    font-size: 1.2em;
+.content-stage span {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 15px !important;
+    font-family: 'Avenir-Roman';
+    font-weight: 600;
 }
 
-#content-stage-left h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.3em;
+.content-stage ul {
+    padding-left: 20px;
 }
 
-#content-stage-left p {
-    font-size: 0.9em;
-    opacity: 0.7;
-    margin-bottom: 0.25em;
+.content-stage ul li {
+    margin-bottom: 3px;
 }
 
 @media (max-width: 992px) {
-    #experience img {
+    .experience img {
         width: 0;
         height: 0;
-    }
-    #experience-content {
-        border-left: #007BFF solid 5px;
     }
 }
 

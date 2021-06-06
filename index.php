@@ -23,9 +23,9 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="#anchor_presentation" class="nav-link">Présentation<span></span></a></li>
                     <li class="nav-item"><a href="#anchor_competences" class="nav-link">Compétences<span></span></a></li>
-                    <li class="nav-item"><a href="#anchor_experience" class="nav-link">Expérience<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_experience" class="nav-link">Expériences<span></span></a></li>
                     <li class="nav-item"><a href="#anchor_formations" class="nav-link">Formations<span></span></a></li>
-                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Mes projets<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Projets<span></span></a></li>
                     <li class="nav-item"><a href="#anchor_contact" class="nav-link">Contact<span></span></a></li>
                 </ul>
             </nav>
@@ -50,7 +50,6 @@
                     <p> Étudiant en BTS SIO (SLAM) à l'école IPSSI située à Paris, je suis actuellement
                     en alternance chez ZencarZ. Passionné par le développement informatique,
                     je maîtrise aussi bien les langages Front-End que Back-End ainsi que certains langages de programmations.
-                    Pour plus d'informations n'hésitez pas à me contacter !
                     </p>
                 </div>
                 <a href="documents/cv_bastien_piedallu.pdf" target="_blank"
@@ -67,7 +66,7 @@
                     <div class="col-lg">
                         <h3>Développement Web</h3>
                         <ul>
-                            <li>HTML/CSS
+                            <li>HTML / CSS
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="90"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -79,15 +78,15 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>PHP
+                            <li>SQL / NoSQL
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>MySQL
+                            <li>PHP
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -114,19 +113,19 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>Bootstrap
+                            <li>Node.js
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>Express.js
+                            <li>Vue.js
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>AngularJS
+                            <li>Angular
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="55"
                                     aria-valuemin="0" aria-valuemax="100"></div>
@@ -151,6 +150,12 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
+                            <li>C#
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
                             <li>Python
                                 <div class="progress">
                                     <div class="progress-bar" role="progressbar" aria-valuenow="65"
@@ -168,15 +173,21 @@
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
-                            <li>Node.js
+                            <li>Jira
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                            <li>Glide
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
                             <li>Visual Studio
                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70"
                                     aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </li>
@@ -187,24 +198,57 @@
         </div>
         <div id="experience-container" class="section">
             <span class="anchor" id="anchor_experience"></span>
-            <h2 data-aos="fade-up" data-aos-duration="1500">Expérience</h2>
-            <div id="experience" class="container" data-aos="fade-left" data-aos-duration="1500">
+            <h2 data-aos="fade-up" data-aos-duration="1500">Expériences</h2>
+            <div class="container experience" data-aos="fade-right" data-aos-duration="1500">
                 <div class="row">
-                    <a href="documents/Rapport_de_stage.pdf" target="_blank" id="experience-content" class="col-10 offset-1">
-                        <img src="images/image_stage.png">
-                        <div id="content-stage">
-                            <div id="content-stage-left">
-                                <h3>IFGPE</h3>
-                                <h4>Développeur Web Junior</h4>
-                                <p>- Création d'un site regroupant des produits immobiliers sous WordPress</p>
-                                <p>- Conception et mise en place d'une simulation pour certains produits
-                                permettant aux clients de faire une projection financière</p>
-                            </div>
-                            <div id="content-stage-right">
-                                <h4>(2 mois)<h4>
-                            </div>
+                    <div class="experience-content col-10 offset-1">
+                        <div class="content-stage">
+                            <h3>Développeur Full Stack</h3>
+                            <h4>Zorro en Couleur</h4>
+                            <span>Mai 2021 - Aujourd'hui</span>
+                            <ul>
+                                <li>Création d'un site e-commerce avec Vue.js</li>
+                                <li>Utilisation de Node.js et SQL Server</li>
+                                <li>Mise en place d'une API REST</li>
+                                <li>Intégration d'une maquette Figma</li>
+                            </ul>
                         </div>
-                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container experience" data-aos="fade-right" data-aos-duration="1500">
+                <div class="row">
+                    <div class="experience-content col-10 offset-1">
+                        <div class="content-stage">
+                            <h3>Développeur Full Stack</h3>
+                            <h4>ZencarZ</h4>
+                            <span>Décembre 2020 - Juillet 2021</span>
+                            <ul>
+                                <li>Création d'une application de gestion des véhicules de l'entreprise</li>
+                                <li>Conception et création l’application sur Glide</li>
+                                <li>Mise en place d'un système de tag d'image pour la gestion des sinistres
+                                en HTML / CSS / JavaScript relié à l'application</li>
+                                <li>Création d'une API REST avec Node.js et Express.js</li>
+                                <li>Utilisation de MongoDB pour gérer une partie des données</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container experience" data-aos="fade-left" data-aos-duration="1500">
+                <div class="row">
+                    <div class="experience-content col-10 offset-1">
+                        <div class="content-stage">
+                            <h3>Développeur Web Junior</h3>
+                            <h4>IFGPE</h4>
+                            <span>Mars 2020 - Avril 2020</span>
+                            <ul>
+                              <li>Création d'un site regroupant des produits immobiliers sous WordPress</li>
+                              <li>Conception et mise en place d'une simulation pour certains produits
+                              permettant aux clients de faire une projection financière</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -212,9 +256,17 @@
             <span class="anchor" id="anchor_formations"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500">Formations</h2>
             <div id="formations" class="container">
+              <div class="row">
+                  <div class="col-8 offset-2 formations-content"
+                  data-aos="fade-right" data-aos-duration="1500">
+                      <h3>2021-2022</h3>
+                      <h1>Bachelor Développement Full Stack et DevOps</h1>
+                      <h2>IPSSI</h2>
+                  </div>
+              </div>
                 <div class="row">
                     <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-right" data-aos-duration="1500">
+                    data-aos="fade-left" data-aos-duration="1500">
                         <h3>2019-2021</h3>
                         <h1>BTS SIO option SLAM</h1>
                         <h2>IPSSI</h2>
@@ -222,7 +274,7 @@
                 </div>
                 <div class="row">
                     <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-left" data-aos-duration="1500">
+                    data-aos="fade-right" data-aos-duration="1500">
                         <h3>2018-2019</h3>
                         <h1>Bachelor en Technologies de l'information</h1>
                         <h2>EPITECH</h2>
@@ -230,7 +282,7 @@
                 </div>
                 <div class="row">
                     <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-right" data-aos-duration="1500">
+                    data-aos="fade-left" data-aos-duration="1500">
                         <h3>2015-2018</h3>
                         <h1>Baccalauréat (E.S)</h1>
                         <h2>Lycée de l'Alma</h2>
@@ -239,69 +291,72 @@
             </div>
         </div>
         <div id="mes-projets" class="section">
+          <div class="container">
             <span class="anchor" id="anchor_projets"></span>
-            <h2 data-aos="fade-up" data-aos-duration="1500"
-            >Mes projets</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1500">PPE</h2>
             <div class="projets-container">
-                <a href="https://www.github.com/stabien/Gallery_template" class="projets-content"
+                <a href="#" class="projets-content"
                 data-aos="zoom-in" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
-                        <h3>Gallery Template</h3>
-                        <img src="images/gallery_template_miniature.jpg">
-                    </div>
-                    <h4>Site galerie photo</h4>
-                    <ul>
-                        <li>ReactJS</li>
-                        <li>NodeJS</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </a>
-                <a href="https://www.github.com/stabien/cyaba" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1500"
-                data-aos-anchor-placement="top-bottom" target="_blank">
-                    <div class="miniature-container">
-                        <h3>Cyaba</h3>
+                        <h3>Zorro en Couleur</h3>
                         <img src="images/cyaba_miniature.png">
                     </div>
                     <h4>Site e-commerce</h4>
                     <ul>
-                        <li>jQuery</li>
-                        <li>PHP</li>
-                        <li>MySQL</li>
+                        <li>Vue.js</li>
+                        <li>Node.js</li>
+                        <li>API REST</li>
+                        <li>SQL Server</li>
                     </ul>
                 </a>
-                <a href="https://www.github.com/stabien/punchline" class="projets-content"
-                data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400"
+                <a href="#" class="projets-content"
+                data-aos="zoom-in" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
-                        <h3>Punchline</h3>
-                        <img src="images/punchline_miniature.jpg">
+                        <h3>Nutrifinder</h3>
+                        <img src="images/ppe2.png">
                     </div>
                     <h4>Application mobile</h4>
                     <ul>
-                        <li>React-Native</li>
-                        <li>NodeJS</li>
-                        <li>Expo</li>
+                        <li>React Native</li>
+                        <li>Node.js</li>
+                        <li>Redux</li>
+                        <li>SQL Server</li>
                     </ul>
                 </a>
-                <a href="https://www.github.com/stabien/youtube_records" class="projets-content"
-                data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1500"
+                <a href="#" class="projets-content"
+                data-aos="zoom-in" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Youtube Records</h3>
-                        <img src="images/youtube_records_miniature.png">
+                        <img src="images/ppe2.png">
                     </div>
                     <h4>Extension Chrome</h4>
                     <ul>
-                        <li>JavaScript</li>
+                        <li>Node.js</li>
                         <li>Express.js</li>
                         <li>Socket.io</li>
                     </ul>
                 </a>
+                <a href="#" class="projets-content"
+                data-aos="zoom-in" data-aos-duration="1500"
+                data-aos-anchor-placement="top-bottom" target="_blank">
+                    <div class="miniature-container">
+                        <h3>Gallery Template</h3>
+                        <img src="images/ppe2.png">
+                    </div>
+                    <h4>Galerie photo</h4>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </a>
             </div>
-            <a id="link-github" href="https://www.github.com/Stabien" target="_blank"
-            data-aos="fade-up" data-aos-duration="1500">Voir tous mes projets</a>
+          </div>
+          <a id="link-github" href="https://www.github.com/Stabien" target="_blank"
+          data-aos="fade-up" data-aos-duration="1500">Voir tous mes projets</a>
         </div>
         <div id="contact" class="section">
             <span class="anchor" id="anchor_contact"></span>
