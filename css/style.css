@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: 'Nunito';
+    src: url('font/Nunito-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Helvetica';
     src: url('font/Helvetica.otf') format('truetype');
     font-weight: normal;
@@ -250,8 +257,7 @@ main {
 
 #competences {
     background: white;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
-                0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 2px 16px 0 rgb(64 41 85 / 20%);
 }
 
 #competences_title {
@@ -269,7 +275,7 @@ main {
     margin: 0;
     margin: auto;
     margin-bottom: 1em;
-    font-family: 'Avenir-Roman';
+    font-family: 'Nunito';
 }
 
 #competences ul {
@@ -317,8 +323,7 @@ main {
     flex-direction: row;
     padding: 0;
     background: white;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
-                0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     transition: all 0.3s;
     text-decoration: none;
     color: black;
@@ -342,26 +347,27 @@ main {
 }
 
 .content-stage h3 {
-    font-family: 'Avenir-Roman';
-    margin-bottom: 4px;
+    font-family: 'Nunito';
+    margin-bottom: 10px;
 }
 
 .content-stage h4 {
     color: #8520E1;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-family: 'Avenir-Roman';
     font-size: 18px;
-}
-
-.content-stage span {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 15px !important;
-    font-family: 'Avenir-Roman';
     font-weight: 600;
 }
 
+.content-stage span {
+    margin-top: 0;
+    font-family: 'Avenir-Roman';
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .content-stage ul {
+    margin-top: 15px;
     padding-left: 20px;
 }
 
@@ -384,11 +390,15 @@ main {
 
 .formations-content {
     background: white;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
-                0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     padding-top: 1.5em;
     margin-bottom: 1em;
     border-left: 5px solid #007bff;
+    transition: box-shadow 0.3s;
+}
+
+.formations-content:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #formations h3 {
@@ -400,7 +410,7 @@ main {
 }
 
 #formations h1 {
-    font-family: 'Avenir-Roman';
+    font-family: 'Nunito';
     font-size: 1.3em;
     text-align: center;
     margin-bottom: 0.5em;
@@ -461,8 +471,7 @@ main {
 }
 
 .projets-content {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
-                0 1px 4px rgba(0, 0, 0, 0.24);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin: 1em;
     width: 22em;
     background: white;
@@ -477,7 +486,7 @@ main {
 
 #mes-projets h4 {
     text-align: center;
-    font-family: 'Avenir-Roman';
+    font-family: 'Nunito';
     font-size: 1.2em;
     margin: 0;
     margin-top: 0.7em;

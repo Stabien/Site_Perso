@@ -256,33 +256,29 @@
             <span class="anchor" id="anchor_formations"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500">Formations</h2>
             <div id="formations" class="container">
-              <div class="row">
-                  <div class="col-8 offset-2 formations-content"
-                  data-aos="fade-right" data-aos-duration="1500">
+              <div class="row" data-aos="fade-right" data-aos-duration="1500">
+                  <div class="col-8 offset-2 formations-content">
                       <h3>2021-2022</h3>
                       <h1>Bachelor Développement Full Stack et DevOps</h1>
                       <h2>IPSSI</h2>
                   </div>
               </div>
-                <div class="row">
-                    <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-left" data-aos-duration="1500">
+                <div class="row" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="col-8 offset-2 formations-content">
                         <h3>2019-2021</h3>
                         <h1>BTS SIO option SLAM</h1>
                         <h2>IPSSI</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-right" data-aos-duration="1500">
+                <div class="row" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="col-8 offset-2 formations-content">
                         <h3>2018-2019</h3>
                         <h1>Bachelor en Technologies de l'information</h1>
                         <h2>EPITECH</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-8 offset-2 formations-content"
-                    data-aos="fade-left" data-aos-duration="1500">
+                <div class="row" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="col-8 offset-2 formations-content">
                         <h3>2015-2018</h3>
                         <h1>Baccalauréat (E.S)</h1>
                         <h2>Lycée de l'Alma</h2>
@@ -293,7 +289,7 @@
         <div id="mes-projets" class="section">
           <div class="container">
             <span class="anchor" id="anchor_projets"></span>
-            <h2 data-aos="fade-up" data-aos-duration="1500">PPE</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1500">Projets</h2>
             <div class="projets-container">
                 <a href="#" class="projets-content"
                 data-aos="zoom-in" data-aos-duration="1500"
