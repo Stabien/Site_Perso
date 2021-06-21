@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -13,6 +14,10 @@
 </head>
 
 <body>
+    <div id="loading-screen">
+      <div class="lds-dual-ring">
+      </div>
+    </div>
     <header class="navbar navbar-expand-lg position-fixed">
         <span class="navbar-brand">Bastien PIEDALLU</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content">
@@ -25,7 +30,7 @@
                     <li class="nav-item"><a href="#anchor_competences" class="nav-link">Compétences<span></span></a></li>
                     <li class="nav-item"><a href="#anchor_experience" class="nav-link">Expériences<span></span></a></li>
                     <li class="nav-item"><a href="#anchor_formations" class="nav-link">Formations<span></span></a></li>
-                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Projets<span></span></a></li>
+                    <li class="nav-item"><a href="#anchor_projets" class="nav-link">Mes projets<span></span></a></li>
                     <li class="nav-item"><a href="#anchor_contact" class="nav-link">Contact<span></span></a></li>
                 </ul>
             </nav>
@@ -199,7 +204,7 @@
         <div id="experience-container" class="section">
             <span class="anchor" id="anchor_experience"></span>
             <h2 data-aos="fade-up" data-aos-duration="1500">Expériences</h2>
-            <div class="container experience" data-aos="fade-right" data-aos-duration="1500">
+            <div class="container experience" data-aos="fade-up" data-aos-duration="1500">
                 <div class="row">
                     <div class="experience-content col-10 offset-1">
                         <div class="content-stage">
@@ -216,7 +221,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container experience" data-aos="fade-left" data-aos-duration="1500">
+            <div class="container experience" data-aos="fade-up" data-aos-duration="1500">
                 <div class="row">
                     <div class="experience-content col-10 offset-1">
                         <div class="content-stage">
@@ -235,7 +240,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container experience" data-aos="fade-right" data-aos-duration="1500">
+            <div class="container experience" data-aos="fade-up" data-aos-duration="1500">
                 <div class="row">
                     <div class="experience-content col-10 offset-1">
                         <div class="content-stage">
@@ -279,7 +284,7 @@
                 </div>
                 <div class="row" data-aos="fade-left" data-aos-duration="1500">
                     <div class="col-8 offset-2 formations-content">
-                        <h3>2015-2018</h3>
+                        <h3>2017-2018</h3>
                         <h1>Baccalauréat (E.S)</h1>
                         <h2>Lycée de l'Alma</h2>
                     </div>
@@ -289,9 +294,9 @@
         <div id="mes-projets" class="section">
           <div class="container">
             <span class="anchor" id="anchor_projets"></span>
-            <h2 data-aos="fade-up" data-aos-duration="1500">Projets</h2>
+            <h2 data-aos="fade-up" data-aos-duration="1500">Mes projets</h2>
             <div class="projets-container">
-                <a href="#" class="projets-content"
+                <a href="https://github.com/stabien/zorro_en_couleur" class="projets-content"
                 data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
@@ -306,12 +311,12 @@
                         <li>SQL Server</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content"
+                <a href="https://github.com/stabien/nutrifinder" class="projets-content"
                 data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Nutrifinder</h3>
-                        <img src="images/ppe2.png">
+                        <img src="images/mobile_miniature.jpg">
                     </div>
                     <h4>Application mobile</h4>
                     <ul>
@@ -321,12 +326,12 @@
                         <li>SQL Server</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content"
+                <a href="https://github.com/stabien/youtube_records" class="projets-content"
                 data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Youtube Records</h3>
-                        <img src="images/ppe2.png">
+                        <img src="images/youtube_records_miniature.png">
                     </div>
                     <h4>Extension Chrome</h4>
                     <ul>
@@ -335,14 +340,14 @@
                         <li>Socket.io</li>
                     </ul>
                 </a>
-                <a href="#" class="projets-content"
+                <a href="https://github.com/stabien/gallery_template" class="projets-content"
                 data-aos="fade-up" data-aos-duration="1500"
                 data-aos-anchor-placement="top-bottom" target="_blank">
                     <div class="miniature-container">
                         <h3>Gallery Template</h3>
-                        <img src="images/ppe2.png">
+                        <img src="images/gallery_template_miniature.jpg">
                     </div>
-                    <h4>Galerie photo</h4>
+                    <h4>Application web</h4>
                     <ul>
                         <li>React.js</li>
                         <li>Node.js</li>
@@ -377,7 +382,7 @@
                         </div>
                     </div>
                     <div id="form_contact" class="col-10 offset-1 col-lg-6 offset-lg-1">
-                        <form action="" method="POST">
+                        <form action="mail.php" method="POST">
                             <h3>Me contacter</h3>
                             <div class="names_input_container">
                                 <input type="text" class="contact_input"
@@ -410,5 +415,6 @@
     <script src="js/nav_scroll.js"></script>
     <script src="js/submit_form.js"></script>
     <script src="js/projet_hover_animation.js"></script>
+    <script src="js/loading_screen.js"></script>
 </body>
 </html>

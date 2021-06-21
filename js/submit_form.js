@@ -19,13 +19,6 @@ $('form').submit(function(e) {
         else
             inputs.eq(i).css('border', 'none');
     }
-    $.ajax({
-        type: "POST",
-        url: url,
-        data: form.serialize(),
-        success: function() {
-            $('#form_submit').css('display', 'block');
-            $('.contact_input').val('');
-        }
-    });
+    $('#form_submit').css('display', 'block');
+    $('.contact_input').val('');
 });
